@@ -97,4 +97,17 @@
             where y is the dependent variable, x1, x2, ... xn are the independent variables, 
             b0 is the y-intercept, and b1, b2, ... bn are the coefficients for each independent variable.
 
+
+# Matrix 
+
+1. Introduction to Matrices:
+
+    Matrices are rectangular arrays of numbers, symbols, or characters where all of these elements are arranged in each row and column. 
+
+    A matrix is identified by its order which is given in the form of rows ⨯ and columns and the location of each element is given by the row and column it belongs to.
+
+    A matrix is represented as [P]m⨯n where P is the matrix, m is the number of rows and n is the number of columns. 
+
+    Example: 
+
             
