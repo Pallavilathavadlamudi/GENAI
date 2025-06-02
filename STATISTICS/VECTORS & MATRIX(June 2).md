@@ -220,3 +220,5 @@
                      (A) = [aji]n×m
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Transpose.png">
+
+    
