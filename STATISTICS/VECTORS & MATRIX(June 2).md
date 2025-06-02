@@ -172,3 +172,10 @@
 
         <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Typesofmatrix.png">
     
+4. Matrix Operaions: 
+
+    1. Addition:
+
+            Adding matrices is as simple as adding numbers, but there’s one important rule: the matrices must have the same order (i.e., the same number of rows and columns). Once this condition is met, the addition is performed by adding corresponding elements of both matrices to form a new matrix.
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/MatrixAddition.png">
