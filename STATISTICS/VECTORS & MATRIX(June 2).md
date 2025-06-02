@@ -61,7 +61,7 @@
 
 1. Linearity:
 
-        Constant Rate of Change: A linear relationship has a constant rate of change, meaning the value increases or decreases by the same amount over each time period. 
+    Constant Rate of Change: A linear relationship has a constant rate of change, meaning the value increases or decreases by the same amount over each time period. 
         
         Example: A salary that increases by $1,000 every year is a linear increase. 
     
@@ -71,7 +71,7 @@
 
 2. Exponentiality:
 
-        An exponential relationship has a constant rate of percent change, meaning the value is multiplied by the same factor (e.g., 1.05 for a 5% increase) over each time period. 
+    An exponential relationship has a constant rate of percent change, meaning the value is multiplied by the same factor (e.g., 1.05 for a 5% increase) over each time period. 
         
         Example: Money in a savings account that earns 5% interest annually is an example of exponential growth. 
         
@@ -128,47 +128,47 @@
 
     1. Singleton matrix :
 
-            A singleton matrix is defined as a matrix that has only one element, i.e., it has only one row and one column. So, the order of a singleton matrix is "1 × 1".
+        A singleton matrix is defined as a matrix that has only one element, i.e., it has only one row and one column. So, the order of a singleton matrix is "1 × 1".
 
             eaxample : A=[23]
 
     2. Row matrix :
 
-            A row matrix is defined as a matrix that has only one row. A matrix "A = [aij]" is said to be a row matrix if the order of the matrix is "1 × n".
+        A row matrix is defined as a matrix that has only one row. A matrix "A = [aij]" is said to be a row matrix if the order of the matrix is "1 × n".
 
     3. Column matrix: 
 
-            A column matrix is defined as a matrix that has only one column. The matrix "A = [aij]" is said to be a column matrix if the order of the matrix is "m × 1".
+        A column matrix is defined as a matrix that has only one column. The matrix "A = [aij]" is said to be a column matrix if the order of the matrix is "m × 1".
         
     4. Rectangular matrix:
 
-            A rectangular matrix is defined as a matrix that does not have an equal number of rows and columns. The order of a rectangular matrix that has "m" rows and "n" columns is "m × n". 
+        A rectangular matrix is defined as a matrix that does not have an equal number of rows and columns. The order of a rectangular matrix that has "m" rows and "n" columns is "m × n". 
 
     5. Square matrix:
 
-            A square matrix is defined as a matrix that has an equal number of rows and columns. The order of a square matrix that has "n" rows and "n" columns is "n × n".
+        A square matrix is defined as a matrix that has an equal number of rows and columns. The order of a square matrix that has "n" rows and "n" columns is "n × n".
 
     6. Zero or Null matrix:
 
-            A matrix whose all elements are zero is called a Zero Matrix. A zero matrix is also called as Null Matrix.
+        A matrix whose all elements are zero is called a Zero Matrix. A zero matrix is also called as Null Matrix.
 
     7. Diagonal matrix:
 
-            A square matrix in which the non-diagonal elements are zero is called a Diagonal Matrix.
+        A square matrix in which the non-diagonal elements are zero is called a Diagonal Matrix.
 
     8. Scalar matrix:
 
-            A diagonal matrix with equal diagonal elements.
+        A diagonal matrix with equal diagonal elements.
 
     9. Unit matrix:
 
-            A diagonal matrix whose all diagonal elements are 1 is called a Unit Matrix. A unit matrix is also called an Identity matrix. An identity matrix is represented by 1. 
+        A diagonal matrix whose all diagonal elements are 1 is called a Unit Matrix. A unit matrix is also called an Identity matrix. An identity matrix is represented by 1. 
 
     10. Upper and Lower Triangular Matrix:
 
-            Upper Triangular Matrix: A square matrix in which all the elements below the diagonal are zero is known as the upper triangular matrix.
+        Upper Triangular Matrix: A square matrix in which all the elements below the diagonal are zero is known as the upper triangular matrix.
 
-            Lower Triangular Matrix: A square matrix in which all the elements above the diagonal are zero is known as the lower triangular matrix.
+        Lower Triangular Matrix: A square matrix in which all the elements above the diagonal are zero is known as the lower triangular matrix.
 
         <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Typesofmatrix.png">
     
@@ -176,6 +176,47 @@
 
     1. Addition:
 
-            Adding matrices is as simple as adding numbers, but there’s one important rule: the matrices must have the same order (i.e., the same number of rows and columns). Once this condition is met, the addition is performed by adding corresponding elements of both matrices to form a new matrix.
+        Adding matrices is as simple as adding numbers, 
+        but there’s one important rule: the matrices must have the same order (i.e., the same number of rows and columns). Once this condition is met, the addition is performed by adding corresponding elements of both matrices to form a new matrix.
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/MatrixAddition.png">
+
+        Commutative Law: A + B = B + A
+        Associative Law: (A + B) + C = A + (B + C)
+        Identity of Matrix: A + O = O + A = A, where O is a zero matrix, which is the Additive Identity of the Matrix
+        Additive Inverse: A + (-A) = O = (-A) + A, where (-A) is obtained by changing the sign of every element of A, which is the additive inverse of the matrix.
+
+    2. Subtraction:
+
+        To subtract two matrices, the matrices must have the same order (i.e., the same number of rows and columns). Subtraction is performed by subtracting the corresponding elements of the second matrix from the first matrix to form a new matrix
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/MatrixSubtraction.png">
+
+    3. Multiplication: 
+
+        1. Scalar Multiplication:
+
+        For any matrix A = [aij]m×n, if we multiply the matrix A by any scalar (say k), then the scalar is multiplied by each element of the matrix, and this is called the scalar multiplication of matrices.
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/ScalarMultiplication.png">
+
+        2. Multiplication:
+
+        Matrix multiplication is the operation that helps us multiply two matrices. 
+        This is different from algebraic multiplication, and not all matrices can be multiplied.
+            
+                number of columns in first matrix = number of rows in second matrix
+
+                            [A]m×n and [B]n×p
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Multiplication.png">
+
+    4. Transpose of a Matrix:
+
+        The transpose operation of a matrix rearranges its rows into columns and its columns into rows. For a matrix A of order m×n, 
+        denoted as A = [aij]m×n​, its transpose is represented by AT and is defined as:
+
+                        T
+                     (A) = [aji]n×m
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Transpose.png">
