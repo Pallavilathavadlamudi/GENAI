@@ -51,6 +51,7 @@
             r	=	growth rate
             {x}	=	number of time intervals     
 
+    <img src = https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/ExponentialEquation.png>
 
 # LINEARITY AND EXPONENTIALITY 
 
