@@ -110,4 +110,65 @@
 
     Example: 
 
-            
+    <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Examplematrix.png">    
+
+
+2. Order of Matrix:
+
+    The order of a matrix refers to its dimensions, i.e., the number of rows and columns. If a matrix has m rows and n columns, its order is     denoted as m × n.
+
+    How to determine order of matrix?
+
+    The order of the matrix is determined by the number of rows and columns present in the matrix. For example, if a matrix has "m" rows and "n" columns, then the order of the matrix is said to be "m × n."
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Orderofmatrix.png">
+
+
+3. Types of Matrix:
+
+    1. Singleton matrix :
+
+            A singleton matrix is defined as a matrix that has only one element, i.e., it has only one row and one column. So, the order of a singleton matrix is "1 × 1".
+
+            eaxample : A=[23]
+
+    2. Row matrix :
+
+            A row matrix is defined as a matrix that has only one row. A matrix "A = [aij]" is said to be a row matrix if the order of the matrix is "1 × n".
+
+    3. Column matrix: 
+
+            A column matrix is defined as a matrix that has only one column. The matrix "A = [aij]" is said to be a column matrix if the order of the matrix is "m × 1".
+        
+    4. Rectangular matrix:
+
+        A rectangular matrix is defined as a matrix that does not have an equal number of rows and columns. The order of a rectangular matrix that has "m" rows and "n" columns is "m × n". 
+
+    5. Square matrix:
+
+        A square matrix is defined as a matrix that has an equal number of rows and columns. The order of a square matrix that has "n" rows and "n" columns is "n × n".
+
+    6. Zero or Null matrix:
+
+        A matrix whose all elements are zero is called a Zero Matrix. A zero matrix is also called as Null Matrix.
+
+    7. Diagonal matrix:
+
+        A square matrix in which the non-diagonal elements are zero is called a Diagonal Matrix.
+
+    8. Scalar matrix:
+
+        A diagonal matrix with equal diagonal elements.
+
+    9. Unit matrix:
+
+        A diagonal matrix whose all diagonal elements are 1 is called a Unit Matrix. A unit matrix is also called an Identity matrix. An identity matrix is represented by 1. 
+
+    10. Upper and Lower Triangular Matrix:
+
+        Upper Triangular Matrix: A square matrix in which all the elements below the diagonal are zero is known as the upper triangular matrix.
+
+        Lower Triangular Matrix: A square matrix in which all the elements above the diagonal are zero is known as the lower triangular matrix.
+
+        <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Typesofmatrix.png">
+    
