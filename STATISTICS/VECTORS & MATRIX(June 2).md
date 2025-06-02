@@ -142,33 +142,33 @@
         
     4. Rectangular matrix:
 
-        A rectangular matrix is defined as a matrix that does not have an equal number of rows and columns. The order of a rectangular matrix that has "m" rows and "n" columns is "m × n". 
+            A rectangular matrix is defined as a matrix that does not have an equal number of rows and columns. The order of a rectangular matrix that has "m" rows and "n" columns is "m × n". 
 
     5. Square matrix:
 
-        A square matrix is defined as a matrix that has an equal number of rows and columns. The order of a square matrix that has "n" rows and "n" columns is "n × n".
+            A square matrix is defined as a matrix that has an equal number of rows and columns. The order of a square matrix that has "n" rows and "n" columns is "n × n".
 
     6. Zero or Null matrix:
 
-        A matrix whose all elements are zero is called a Zero Matrix. A zero matrix is also called as Null Matrix.
+            A matrix whose all elements are zero is called a Zero Matrix. A zero matrix is also called as Null Matrix.
 
     7. Diagonal matrix:
 
-        A square matrix in which the non-diagonal elements are zero is called a Diagonal Matrix.
+            A square matrix in which the non-diagonal elements are zero is called a Diagonal Matrix.
 
     8. Scalar matrix:
 
-        A diagonal matrix with equal diagonal elements.
+            A diagonal matrix with equal diagonal elements.
 
     9. Unit matrix:
 
-        A diagonal matrix whose all diagonal elements are 1 is called a Unit Matrix. A unit matrix is also called an Identity matrix. An identity matrix is represented by 1. 
+            A diagonal matrix whose all diagonal elements are 1 is called a Unit Matrix. A unit matrix is also called an Identity matrix. An identity matrix is represented by 1. 
 
     10. Upper and Lower Triangular Matrix:
 
-        Upper Triangular Matrix: A square matrix in which all the elements below the diagonal are zero is known as the upper triangular matrix.
+            Upper Triangular Matrix: A square matrix in which all the elements below the diagonal are zero is known as the upper triangular matrix.
 
-        Lower Triangular Matrix: A square matrix in which all the elements above the diagonal are zero is known as the lower triangular matrix.
+            Lower Triangular Matrix: A square matrix in which all the elements above the diagonal are zero is known as the lower triangular matrix.
 
         <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Typesofmatrix.png">
     
