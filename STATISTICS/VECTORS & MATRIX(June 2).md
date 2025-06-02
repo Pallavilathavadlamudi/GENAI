@@ -40,7 +40,7 @@
             
             where 'a', 'b', 'c' and 'd' are constants
 
-        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Cubic%20Equation.png”>
+        <img src="STATISTICS/Assets/Cubic Equation.png”>
         
 
     4. Exponential Equations: 
