@@ -29,7 +29,7 @@
             where 'a', 'b', and 'c' are constants
 
             
-        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Quadratic%20Equation.png”>
+        <img src="STATISTICS/Assets/Quadratic Equation.png”>
 
     3. Cubic Equations: 
         
