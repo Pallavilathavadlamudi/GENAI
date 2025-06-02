@@ -25,3 +25,26 @@
                     ax² + bx + c = 0, 
             
             where 'a', 'b', and 'c' are constants
+
+    3. Cubic Equations: 
+        
+        These equations involve a variable raised to the power of 3 and 
+        They are generally represented as 
+            
+                    ax³ + bx² + cx + d = 0
+            
+            where 'a', 'b', 'c' and 'd' are constants
+
+    4. Exponential Equations: 
+    
+        These equations involve exponential functions, 
+        where the variable appears in the exponent 
+                   
+                    a^x = b
+
+                f(x)=a(1+r)^{x}
+
+            f(x)=	exponential growth function
+            a	=	initial amount
+            r	=	growth rate
+            {x}	=	number of time intervals        
