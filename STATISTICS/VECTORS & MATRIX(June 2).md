@@ -17,8 +17,6 @@
              
              where 'a' and 'b' are constants. When graphed, they form a straight line
 
-        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/LinearEquation.png”>
-
     2. Quadratic Equations: 
         
         These equations involve a variable raised to the power of 2. 
@@ -27,10 +25,7 @@
                     ax² + bx + c = 0, 
             
             where 'a', 'b', and 'c' are constants
-
-            
-        <img src="STATISTICS/Assets/Quadratic Equation.png”>
-
+  
     3. Cubic Equations: 
         
         These equations involve a variable raised to the power of 3 and 
@@ -39,9 +34,6 @@
                     ax³ + bx² + cx + d = 0
             
             where 'a', 'b', 'c' and 'd' are constants
-
-        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/CubicEquation.png”>
-        
 
     4. Exponential Equations: 
     
@@ -57,4 +49,4 @@
             r	=	growth rate
             {x}	=	number of time intervals        
 
-    <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Exponential%20Equation.png”>
+   
