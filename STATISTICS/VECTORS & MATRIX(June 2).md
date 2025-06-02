@@ -17,7 +17,7 @@
              
              where 'a' and 'b' are constants. When graphed, they form a straight line
 
-        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Linear%20Equation.png”>
+        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/LinearEquation.png”>
 
     2. Quadratic Equations: 
         
