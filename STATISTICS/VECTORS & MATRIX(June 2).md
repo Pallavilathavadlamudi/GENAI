@@ -17,7 +17,7 @@
              
              where 'a' and 'b' are constants. When graphed, they form a straight line
 
-            <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Linear%20Equation.png”>
+        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Linear%20Equation.png”>
 
     2. Quadratic Equations: 
         
@@ -29,7 +29,7 @@
             where 'a', 'b', and 'c' are constants
 
             
-            <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Quadratic%20Equation.png”>
+        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Quadratic%20Equation.png”>
 
     3. Cubic Equations: 
         
@@ -40,7 +40,8 @@
             
             where 'a', 'b', 'c' and 'd' are constants
 
-            <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Cubic%20Equation.png”>
+        <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Cubic%20Equation.png”>
+        
 
     4. Exponential Equations: 
     
@@ -56,4 +57,4 @@
             r	=	growth rate
             {x}	=	number of time intervals        
 
-            <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Exponential%20Equation.png”>
+    <img src="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Exponential%20Equation.png”>
