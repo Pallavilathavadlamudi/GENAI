@@ -300,18 +300,18 @@
     Can be scaled by numbers (called scalars)
 
 
-    Example : 1. Images (Grayscale or Color)
+        Example : 1. Images (Grayscale or Color)
 
-    A digital image can be viewed as a vector of pixel values.
+            A digital image can be viewed as a vector of pixel values.
     
-    An image with 100 pixels is a point in 100-dimensional space!
+            An image with 100 pixels is a point in 100-dimensional space!
     
-    Vector space: All possible grayscale images of a fixed size.
+            Vector space: All possible grayscale images of a fixed size.
     
-    ✅ Why it’s a vector space:
+                ✅ Why it’s a vector space:
 
-    You can add two images (blend them)
-    You can scale an image (adjust brightness)
+                You can add two images (blend them)
+                You can scale an image (adjust brightness)
 
 3. Calculating Angles between vectors:
 
