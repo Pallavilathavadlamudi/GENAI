@@ -296,11 +296,11 @@
 
     A vector space is a collection of vectors that:
 
-    Can be added together
-    Can be scaled by numbers (called scalars)
+    Can be added together.
+    Can be scaled by numbers (called scalars).
 
 
-        Example : 1. Images (Grayscale or Color)
+    Example : 1. Images (Grayscale or Color)
 
             A digital image can be viewed as a vector of pixel values.
     
@@ -313,7 +313,115 @@
                 You can add two images (blend them)
                 You can scale an image (adjust brightness)
 
+    Example : 2.Customer Behavior Vectors in E-Commerce
+
+            Imagine you're tracking customer actions on an e-commerce website. Each action is represented as a vector:
+
+            Example Vectors:
+            
+            Vector A = [1, 0, 2] → 1 view, 0 cart, 2 purchases
+            Vector B = [0, 1, 1] → 0 views, 1 cart, 1 purchase
+            Each vector = [view count, add-to-cart count, purchase count]
+
+            Let's build a vector space:
+            You can now do:
+
+                Vector Addition:
+                A + B = [1+0, 0+1, 2+1] = [1, 1, 3] → valid customer behavior
+            
+                Scalar Multiplication:
+                3 × A = [3, 0, 6] → means a customer viewed 3 times, purchased 6 times
+            
+            These new vectors are still valid behavior vectors and stay in the same space.
+
 3. Calculating Angles between vectors:
 
+    Angles :
+
+    Types of Angles Between Vectors
+
+        Acute: 0∘<θ<90∘
+        Right: θ=90∘θ=90∘ (dot product = 0)
+        Obtuse: 90∘<θ<180∘
+
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Anglesbetweenvectors.png">
+
+4. Calculating distance between 2 vectors:
+     
+    Using Euclidean distance
+
+    The distance between two vectors is usually calculated using the Euclidean distance, which is like finding the straight-line distance between two points in space.
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Euclidean%20distance.png">
+
+
+
+5. Linear Independence:
+ 
+    A set of vectors is linearly independent if no vector can be written as a combination of the others.
+
+    A set of vectors is linearly independent if no vector in the set can be written as a linear combination of the others.
+
+    In simple terms:
+
+    Independent = No redundancy
+    Dependent = At least one vector is a “repeat” of others (possibly scaled or combined)   
+
+        Example: 
+
+            Example: Product Features in E-commerce
+            Imagine you are analyzing customer preferences for a smartphone, and you have these features as vectors:
+
+                Feature A: Screen size (e.g., 6 inches)
+                Feature B: Battery life (e.g., 12 hours)
+                Feature C: Battery life doubled (e.g., 24 hours)
+                
+                Features A and B are linearly independent because screen size and battery life measure different things. You can’t explain battery life just by changing screen size.
+                
+                But Feature C (24 hours battery) is linearly dependent on Feature B (12 hours battery), because:
+                Feature C = 2 × Feature B
+
+6.  Basis: 
+
+    A basis is a minimal set of vectors that are linearly independent and can be combined to represent all vectors in the space.
+        
+        In your example:
+            Features A and B are linearly independent.
+            
+            Feature C depends on Feature B, so you don’t need Feature C to describe the feature space fully.
+
+        Therefore,
+            Basis = {Feature A, Feature B}
+
+        You can express Feature C as a combination of the basis vectors:
+        Feature C = 2 × Feature B
+
+7. Rank:
+    
+    Rank is the number of vectors in the basis, i.e., the dimension of the space spanned by your vectors.
+        
+        In your example, since only Features A and B are independent, the rank = 2.
+
+8. Why is this useful?
+    
+    Linearly independent features mean no duplicate information.
+    Knowing the basis helps reduce redundant features (like Feature C) when analyzing data.
+    The rank tells you how many unique “directions” (features) actually exist in your dataset.
+
+9. Eigen Values & Eigen vector:
+
+    When a matrix(transformation) acts on a vector it usually changes direction and size
+
+        but sometimes a special vector only gets strecthed/shrunk not turned - it stays in the same direction.
+
+        1. The special vector is called "eigen vector"
+        2. The amount its streched is called " eigen value"
+
+    Example:
+
+        What is Image Compression?
+
+            Image compression reduces the size of image files by removing redundant or less important information, while keeping the image looking the same (or close).
+
+            A powerful method to do this is using linear algebra, especially Singular Value Decomposition (SVD), which is based on eigenvalues and eigenvectors.
 
