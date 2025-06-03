@@ -172,7 +172,7 @@
 
         <img src ="https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Typesofmatrix.png">
     
-4. Matrix Operaions: 
+4. Matrix Operations: 
 
     1. Addition:
 
@@ -334,15 +334,15 @@
             
             These new vectors are still valid behavior vectors and stay in the same space.
 
-3. Calculating Angles between vectors:
-
-    Angles :
+3. Angles :
 
     Types of Angles Between Vectors
 
         Acute: 0∘<θ<90∘
         Right: θ=90∘θ=90∘ (dot product = 0)
         Obtuse: 90∘<θ<180∘
+    
+    Calculating Angles between vectors:
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Anglesbetweenvectors.png">
 
@@ -353,8 +353,6 @@
     The distance between two vectors is usually calculated using the Euclidean distance, which is like finding the straight-line distance between two points in space.
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Euclidean%20distance.png">
-
-
 
 5. Linear Independence:
  
