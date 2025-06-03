@@ -233,7 +233,7 @@
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Symmetric%26AsymmetricMatrix.jpg">    
 
-    5. Inverse of Matrix :
+    5. Inverse of Matrix:
 
         The inverse of a matrix is similar to the reciprocal of a number.
 
@@ -246,4 +246,15 @@
     Where I is the identity matrix (like 1 in regular multiplication).     
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Inverseofmatrix.png">
+
+    6. Negative of a Matrix:
+
+        The negative of a matrix is simply a matrix where each element is the additive inverse (i.e., the negative) of the corresponding element in the original matrix.
+
+                A=[aij] Then - A=[-aij]
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Negativematrix.png">
+
     
+
+
