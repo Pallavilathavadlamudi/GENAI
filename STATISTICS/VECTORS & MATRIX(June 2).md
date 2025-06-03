@@ -221,4 +221,14 @@
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Transpose.png">
 
-    
+        1. Symmetric Matrix:
+
+            A square matrix is symmetric if its transpose is equal to itself.
+            In other words, for all i and j, aij = aji.
+
+        2. Asymmetric Matrix: 
+
+            A square matrix is asymmetric if its elements are not equal across the main diagonal
+            This means aij ≠ aji for at least one pair of indices (i, j).
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Symmetric%26AsymmetricMatrix.jpg">         
