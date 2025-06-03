@@ -231,4 +231,19 @@
             A square matrix is asymmetric if its elements are not equal across the main diagonal
             This means aij ≠ aji for at least one pair of indices (i, j).
 
-    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Symmetric%26AsymmetricMatrix.jpg">         
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Symmetric%26AsymmetricMatrix.jpg">    
+
+    5. Inverse of Matrix :
+
+        The inverse of a matrix is similar to the reciprocal of a number.
+
+                                                          −1
+        For a square matrix A, the inverse is denoted as A   , and it satisfies:
+
+                       −1    −1
+                    A⋅A   = A  ⋅A = I
+
+    Where I is the identity matrix (like 1 in regular multiplication).     
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Inverseofmatrix.png">
+    
