@@ -233,7 +233,13 @@
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Symmetric%26AsymmetricMatrix.jpg">    
 
-    5. Inverse of Matrix:
+    5. Determinant of a matrix: 
+        
+        The determinant of a Matrix is defined as a special number that is defined only for square matrices (matrices that have the same number of rows and columns). 
+   
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/DeterminantofMatrix.png">
+
+    6. Inverse of Matrix:
 
         The inverse of a matrix is similar to the reciprocal of a number.
 
@@ -247,7 +253,7 @@
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Inverseofmatrix.png">
 
-    6. Negative of a Matrix:
+    7. Negative of a Matrix:
 
         The negative of a matrix is simply a matrix where each element is the additive inverse (i.e., the negative) of the corresponding element in the original matrix.
 
@@ -255,6 +261,59 @@
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Negativematrix.png">
 
-    
+# Optimization
 
+    Optimization is the process of finding the best solution from all possible solutions, usually by maximizing or minimizing a certain value (called an objective function), under constraints.
+
+    Optimization = Best Choice + Conditions
+
+        1. Discrete Optimization :
+                
+                The variables can only take values from a countable set (usually integers, permutations, or graphs).
+                These problems are typically combinatorial in nature.
+
+        2. Continuous Optimization :
+
+                The variables can take values from a continuous range (real numbers).
+                The solution lies in a real-valued space, often involving calculus or convex analysis.
+
+# Vectors
+
+1. Vector: 
+       
+    A vector is a quantity that has both magnitude and direction.
+
+    Example : Velocity of a Car
+            
+        A car moving at 60 km/h to the north is a vector.
+            
+        Why? Because it has:
+               
+        Magnitude: 60 km/h
+        Direction: North.
+
+2. Vector Space: 
+
+    A vector space is a collection of vectors that:
+
+    Can be added together
+    Can be scaled by numbers (called scalars)
+
+
+    Example : 1. Images (Grayscale or Color)
+
+    A digital image can be viewed as a vector of pixel values.
+    
+    An image with 100 pixels is a point in 100-dimensional space!
+    
+    Vector space: All possible grayscale images of a fixed size.
+    
+    ✅ Why it’s a vector space:
+
+    You can add two images (blend them)
+    You can scale an image (adjust brightness)
+
+3. Calculating Angles between vectors:
+
+    <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Anglesbetweenvectors.png">
 
