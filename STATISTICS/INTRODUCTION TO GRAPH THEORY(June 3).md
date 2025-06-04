@@ -223,3 +223,37 @@
         Use case: Invest in analytics & A/B testing on Product Pages — small changes have big impact because these pages drive user behavior.
 
     <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/STATISTICS/Assets/Centralitybasic.png">
+
+# Graph Database:
+
+    A graph database is a non-relational database designed to store data in nodes (entities) and edges (relationships) — like a network.
+
+    Types of Data:
+
+    Structured Data:
+        organized in rows and columns like in tables	
+        Relational databases (e.g., SQL)
+    
+    Semi-structured: 
+        Doesn’t fit strict tables, but has tags or markers	
+        JSON, XML, CSV
+    
+    Unstructured:
+        No predefined format	
+        Text files, emails, images, videos
+
+    Graph Database:(Fraud Detection)
+
+    ✔️ It works well with:
+    Data Type	How Graph Databases Handle It
+    Structured	Can import data from SQL databases into graphs
+    Semi-structured	Naturally maps to nodes and edges (e.g., JSON → nodes/links)
+    Unstructured	Can store metadata or tags as graph properties
+
+    Example:
+
+    Customer	Node                      Customer
+    Product	Node                         Product
+    Purchase	Edge              Customer → buys → Product
+    Review	Edge                  Customer → reviews → Product
+    Recommendation	Edge       Product → also_bought_with → Product  
