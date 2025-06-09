@@ -41,3 +41,36 @@
     Use: Jump or connect flow when it continues on another page or is too complex.
 
 <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/PYTHON/Assets/Flowcharts.png">
+
+# Statements vs Conditions 
+
+1. Statement: 
+
+    A statement is a line of code that tells the computer to do something. It is an instruction.
+
+    Example:
+        x = 10              # Assignment statement
+        print(x)            # Output statement
+        name = input()
+
+    Statements perform actions.
+    They do not return True or False.
+    They are the steps of a program.
+
+2. Condition:
+
+    A condition is a logical expression that checks something and returns True or False.
+
+    Example: 
+        x > 0               # True if x is greater than 0
+        x == 5              # True if x equals 5
+        age >= 18           # True if age is 18 or more 
+
+        if x > 0:
+        print("Positive number")   # This runs only if the condition is True
+
+    Conditions are used in decisions.
+    They are written using comparison operators like ==, >, <, >=, <=, !=.
+    Used in: if, while, for, etc.   
+
+<img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/PYTHON/Assets/Comparision.png">
