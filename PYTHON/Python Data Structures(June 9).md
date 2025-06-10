@@ -88,3 +88,50 @@
             "year": 1964
         }
         print(thisdict)
+
+# Operations
+
+1. List Operations :
+
+    Access: Retrieve items by their index.
+    Add: Insert new items using append, insert, or extend.
+    Modify: Change the value of an item at a specific index.
+    Remove: Delete items using remove, pop, or del.
+    Search: Check if an item exists or find its position.
+    Sort: Arrange items in ascending or descending order.
+    Reverse: Reverse the order of items.
+    Length: Get the number of items in the list.
+    Iterate: Loop through all items one by one.
+
+| Operation    | Method/Statement                   | Description                    |
+| ------------ | ---------------------------------- | ------------------------------ |
+| Add item     | `append()`, `insert()`, `extend()` | Add elements to list           |
+| Modify item  | `list[index] = value`              | Change value at index          |
+| Remove item  | `remove()`, `pop()`, `del`         | Remove elements                |
+| Access item  | `list[index]`                      | Get element by index           |
+| Search item  | `in`, `index()`                    | Check existence, find position |
+| Sort list    | `sort()`, `sorted()`               | Arrange items                  |
+| Reverse list | `reverse()`                        | Reverse order                  |
+| Length       | `len()`                            | Get number of items            |
+| Iterate      | `for item in list`                 | Loop through items             |
+
+2. Tuple Operations:
+
+    Add item: Not possible (tuples are immutable).
+    Modify item: Not possible (tuples are immutable).
+    Remove item: Not possible (tuples are immutable).
+    Access item: Retrieve items by their index.
+    Search item: Check if an item exists or find its position.
+    Sort: Not possible directly (tuples are immutable), but you can convert to a list to sort.
+    Reverse: Not possible directly, but can create a reversed tuple.
+    Length: Get the number of items in the tuple.
+    Iterate: Loop through all items one by one.
+
+| Operation     | Method/Statement                 | Description                             |
+| ------------- | -------------------------------- | --------------------------------------- |
+| Access item   | `tuple[index]`                   | Get element by index                    |
+| Search item   | `in`, `tuple.index()`            | Check existence, find position          |
+| Sort tuple    | Use `sorted(tuple)`              | Returns a sorted list (tuple unchanged) |
+| Reverse tuple | Use `reversed(tuple)` or slicing | Returns reversed iterator or new tuple  |
+| Length        | `len(tuple)`                     | Get number of items                     |
+| Iterate       | `for item in tuple`              | Loop through items                      |
