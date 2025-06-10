@@ -160,3 +160,16 @@ Explanation:
 | `__init__`       | Special method    | Built-in method in Python     |
 | `display_info()` | Method            | Verb-based, clear meaning     |
 
+# Python Naming Conventions
+
+| **Element**           | **Convention**                       | **Example**                         |
+| --------------------- | ------------------------------------ | ----------------------------------- |
+| **Variables**         | lowercase\_with\_underscores         | `student_name`, `total_count`       |
+| **Functions**         | lowercase\_with\_underscores         | `calculate_total()`, `print_info()` |
+| **Classes**           | CapitalizedWords (PascalCase)        | `Student`, `BankAccount`            |
+| **Constants**         | ALL\_UPPERCASE\_WITH\_UNDERSCORES    | `PI = 3.14`, `MAX_USERS = 100`      |
+| **Private variables** | \_single\_leading\_underscore        | `_password`, `_temp_value`          |
+| **Strongly private**  | \_\_double\_leading\_underscore      | `__secret_key` (name mangling)      |
+| **Special methods**   | **double\_leading\_and\_trailing**   | `__init__`, `__str__`               |
+| **Modules / files**   | lowercase\_with\_underscores         | `user_profile.py`                   |
+| **Packages**          | lowercase (no underscores preferred) | `mypackage`, `utils`                |
