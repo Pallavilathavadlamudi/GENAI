@@ -631,3 +631,4 @@ SUMMARY OF DATA TYPES:
 | Boolean  | `bool`                             |
 | Binary   | `bytes`, `bytearray`, `memoryview` |
 | Special  | `NoneType`                         |
+
