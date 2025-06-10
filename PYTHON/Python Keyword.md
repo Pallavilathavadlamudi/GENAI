@@ -123,14 +123,15 @@ Do consider;
 
     Example: 
 
-        # Class name starts with uppercase letter
-class Student:
-    # Language-defined special method (constructor)
-    def __init__(self, name, age):
-        # Private attribute (by convention, starts with underscore)
-        self._name = name
-        self.age = age
-
+    # Class name starts with uppercase letter
+    class Student:
+        
+        # Language-defined special method (constructor)
+        def __init__(self, name, age):
+            # Private attribute (by convention, starts with underscore)
+            self._name = name
+            self.age = age
+            
     # Regular method
     def display_info(self):
         print("Student Name:", self._name)
