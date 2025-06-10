@@ -173,3 +173,43 @@ Explanation:
 | **Special methods**   | **double\_leading\_and\_trailing**   | `__init__`, `__str__`               |
 | **Modules / files**   | lowercase\_with\_underscores         | `user_profile.py`                   |
 | **Packages**          | lowercase (no underscores preferred) | `mypackage`, `utils`                |
+
+# Instructions:
+
+    1. Comment: 
+        A comment is a short note in the code that explains what the code is doing.
+        It starts with a # and is ignored by Python when the code runs.
+
+        Example:
+
+            # This adds two numbers
+            a = 5 + 3
+
+
+    2. Docstring:
+        A docstring is a special message placed at the beginning of a function, class, or program to describe what it does.
+        It uses triple quotes """ """ and can be read by tools like help().
+
+        Example:
+
+            def greet(name):
+            """This function prints a greeting message."""
+            print("Hello", name)
+
+Comments vs Docstrings:
+
+| Feature   | Comments          | Docstrings                            |
+| --------- | ----------------- | ------------------------------------- |
+| Symbol    | `#`               | `""" """` or `''' '''`                |
+| Scope     | Anywhere in code  | Only inside functions/classes/modules |
+| Purpose   | Brief explanation | Formal documentation                  |
+| Execution | Ignored by Python | Stored in `__doc__`                   |
+| Style     | Short & informal  | Full sentences, formal tone           |
+
+Summary
+
+| Use            | When                                                           |
+| -------------- | -------------------------------------------------------------- |
+| **Comments**   | To explain tricky parts of logic, short notes                  |
+| **Docstrings** | To explain what a function/class/module does, its input/output |
+    
