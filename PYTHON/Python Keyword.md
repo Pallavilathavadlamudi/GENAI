@@ -121,7 +121,7 @@ Do consider;
     ✅ Meaningful variable names (count, not just c)
     ✅ Underscore to separate multiple words (this_is_a_variable)
 
-    Example: 
+Example: 
 
     # Class name starts with uppercase letter
     class Student:
@@ -131,7 +131,7 @@ Do consider;
             # Private attribute (by convention, starts with underscore)
             self._name = name
             self.age = age
-            
+
     # Regular method
     def display_info(self):
         print("Student Name:", self._name)
