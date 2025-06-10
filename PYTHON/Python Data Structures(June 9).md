@@ -73,7 +73,7 @@
 
 | Feature           | Description                                            |
 | ----------------- | ------------------------------------------------------ |
-| Ordered\*         | Items maintain insertion order (Python 3.6+ and later) |
+| Ordered           | Items maintain insertion order (Python 3.6+ and later) |
 | Mutable           | You can add, change, or remove key-value pairs         |
 | Not Indexed       | Access is by **keys**, not by position                 |
 | No duplicate keys | Keys must be unique; values can be duplicated          |
