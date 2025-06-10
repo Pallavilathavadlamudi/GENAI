@@ -20,12 +20,12 @@
         List items are ordered, changeable, and allow duplicate values.
         List items are indexed, the first item has index [0], the second item has index [1] etc.
 
-    |      Feature            |                Description                 |
-    | ----------------------- | ------------------------------------------ |
-    |      Ordered            | Items maintain the order you add them      |
-    |      Mutable            | You can change, add, remove items          |
-    |      Indexed            | Access items by position (starting from 0) |
-    |   Allows duplicates     | Same value can appear multiple times       |
+|      Feature            |                Description                 |
+| ----------------------- | ------------------------------------------ |
+|      Ordered            | Items maintain the order you add them      |
+|      Mutable            | You can change, add, remove items          |
+|      Indexed            | Access items by position (starting from 0) |
+|   Allows duplicates     | Same value can appear multiple times       |
 
         Example:
 
