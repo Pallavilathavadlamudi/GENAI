@@ -48,7 +48,7 @@ Explanation:
 | `with`      | Used to wrap the execution of a block with methods defined by a context manager.   |
 | `yield`     | Returns a generator from a function.                                               |
 
-# Identifiers
+# Identifiers & Variables
 
     Python Identifiers:
 
@@ -85,8 +85,8 @@ Explanation:
         print(var1) -> This outputs the value by using the identifier
 
 
-    | Term       | Description                            | Example                             |
-    | ---------- | -------------------------------------- | ----------------------------------- |
-    | Identifier | The name used to identify a variable   | `myVariable`                        |
-    | Variable   | A memory location holding the value    | `myVariable` stores `"hello world"` |
-    | Value      | The actual data stored in the variable | `"hello world"`                     |
+| Term       | Description                            | Example                             |
+| ---------- | -------------------------------------- | ----------------------------------- |
+| Identifier | The name used to identify a variable   | `myVariable`                        |
+| Variable   | A memory location holding the value    | `myVariable` stores `"hello world"` |
+| Value      | The actual data stored in the variable | `"hello world"`                     |
