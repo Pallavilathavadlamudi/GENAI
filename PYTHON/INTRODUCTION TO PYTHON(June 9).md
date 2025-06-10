@@ -329,11 +329,11 @@ import lets you use tools made by others, so you don’t have to write everythin
                 Checks another condition if the first if is False.
                 You can have multiple elif blocks.
      
-    | Keyword | Meaning                        | Runs when...                    |
-    | ------- | ------------------------------ | ------------------------------- |
-    | `if`    | Check first condition          | Condition is True               |
-    | `elif`  | Else if – check next condition | Previous conditions were False  |
-    | `else`  | Final fallback                 | All above conditions were False |
+| Keyword | Meaning                        | Runs when...                    |
+| ------- | ------------------------------ | ------------------------------- |
+| `if`    | Check first condition          | Condition is True               |
+| `elif`  | Else if – check next condition | Previous conditions were False  |
+| `else`  | Final fallback                 | All above conditions were False |
 
 
 <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/PYTHON/Assets/Comparision.png">
@@ -342,11 +342,11 @@ import lets you use tools made by others, so you don’t have to write everythin
 
     A loop is a programming structure that repeats a set of instructions as long as a condition is true or for a fixed number of times.
 
-    | Type          | Purpose                                 | Common Use                                  |
-    | ------------- | --------------------------------------- | ------------------------------------------- |
-    | `for` loop    | Repeats for a **fixed number of times** | Loops through a list, string, range, etc.   |
-    | `while` loop  | Repeats **while a condition is true**   | Loop until a certain condition is met       |
-    | `nested` loop | A loop **inside another loop**          | Used in matrices, patterns, or combinations |
+| Type          | Purpose                                 | Common Use                                  |
+| ------------- | --------------------------------------- | ------------------------------------------- |
+| `for` loop    | Repeats for a **fixed number of times** | Loops through a list, string, range, etc.   |
+| `while` loop  | Repeats **while a condition is true**   | Loop until a certain condition is met       |
+| `nested` loop | A loop **inside another loop**          | Used in matrices, patterns, or combinations |
 
 1. for loop:
 
@@ -409,11 +409,11 @@ import lets you use tools made by others, so you don’t have to write everythin
         Organize code better (modularity)
         Make programs easier to read and maintain
 
-    | Type             | Description                         | Example                       |
-    | ---------------- | ----------------------------------- | ----------------------------- |
-    |   Built-in       | Ready-made by Python                | `print()`, `len()`, `input()` |
-    |   User-defined   | Created by you for specific tasks   | `def greet(name):`            |
-    |   Lambda         | Small, anonymous one-line functions | `lambda x: x + 2`             |
+| Type             | Description                         | Example                       |
+| ---------------- | ----------------------------------- | ----------------------------- |
+|   Built-in       | Ready-made by Python                | `print()`, `len()`, `input()` |
+|   User-defined   | Created by you for specific tasks   | `def greet(name):`            |
+|   Lambda         | Small, anonymous one-line functions | `lambda x: x + 2`             |
 
 <img src = "https://github.com/Pallavilathavadlamudi/GENAI/blob/main/PYTHON/Assets/Functions.jpeg">
 
@@ -476,18 +476,18 @@ import lets you use tools made by others, so you don’t have to write everythin
 
     1. Key Differences?
 
-        | Feature     | Parameter                         | Argument                   |
-        | ----------- | --------------------------------- | -------------------------- |
-        | Where?      | In **function definition**        | In **function call**       |
-        | What is it? | A **placeholder** for input value | The **actual input value** |
-        | Example     | `def greet(name):`                | `greet("Pallavi")`         |
+| Feature     | Parameter                         | Argument                   |
+| ----------- | --------------------------------- | -------------------------- |
+| Where?      | In **function definition**        | In **function call**       |
+| What is it? | A **placeholder** for input value | The **actual input value** |
+| Example     | `def greet(name):`                | `greet("Pallavi")`         |
 
     2. When and where to use?
 
-        | Use Case           | What You Do                                            |
-        | ------------------ | ------------------------------------------------------ |
-        | Writing a function | Use **parameters** to define the inputs needed         |
-        | Calling a function | Pass **arguments** (actual values) to those parameters |
+| Use Case           | What You Do                                            |
+| ------------------ | ------------------------------------------------------ |
+| Writing a function | Use **parameters** to define the inputs needed         |
+| Calling a function | Pass **arguments** (actual values) to those parameters |
 
 
     Example: 
@@ -504,12 +504,12 @@ import lets you use tools made by others, so you don’t have to write everythin
 
     3. Types of arguments :
 
-        | Type                | Example                   | Description                           |
-        | ------------------- | ------------------------- | ------------------------------------- |
-        |   Positional        | `greet("Pallavi")`        | Based on the order of parameters      |
-        |   Keyword           | `greet(name="Pallavi")`   | Use parameter name when passing value |
-        |   Default           | `def greet(name="Guest")` | Uses default if no argument is passed |
-        |   Variable-length   | `def add(*numbers):`      | Accepts multiple arguments            |
+| Type                | Example                   | Description                           |
+| ------------------- | ------------------------- | ------------------------------------- |
+|   Positional        | `greet("Pallavi")`        | Based on the order of parameters      |
+|   Keyword           | `greet(name="Pallavi")`   | Use parameter name when passing value |
+|   Default           | `def greet(name="Guest")` | Uses default if no argument is passed |
+|   Variable-length   | `def add(*numbers):`      | Accepts multiple arguments            |
 
         1. Positional Arguments:
 
@@ -578,48 +578,48 @@ import lets you use tools made by others, so you don’t have to write everythin
 
     1. Numeric Types:
 
-    | Data Type | Description                      | Example        |
-    | --------- | -------------------------------- | -------------- |
-    | `int`     | Integer numbers                  | `10`, `-5`     |
-    | `float`   | Floating point (decimal) numbers | `3.14`, `-2.5` |
-    | `complex` | Complex numbers (with `j`)       | `3 + 4j`       |
+| Data Type | Description                      | Example        |
+| --------- | -------------------------------- | -------------- |
+| `int`     | Integer numbers                  | `10`, `-5`     |
+| `float`   | Floating point (decimal) numbers | `3.14`, `-2.5` |
+| `complex` | Complex numbers (with `j`)       | `3 + 4j`       |
     
     2. Sequence Type:
 
-    | Data Type | Description                 | Example              |
-    | --------- | --------------------------- | -------------------- |
-    | `str`     | String (text)               | `"hello"`, `'world'` |
-    | `list`    | Ordered, mutable sequence   | `[1, 2, 3]`          |
-    | `tuple`   | Ordered, immutable sequence | `(1, 2, 3)`          |
-    | `range`   | Sequence of numbers         | `range(5)`           |
+| Data Type | Description                 | Example              |
+| --------- | --------------------------- | -------------------- |
+| `str`     | String (text)               | `"hello"`, `'world'` |
+| `list`    | Ordered, mutable sequence   | `[1, 2, 3]`          |
+| `tuple`   | Ordered, immutable sequence | `(1, 2, 3)`          |
+| `range`   | Sequence of numbers         | `range(5)`           |
 
     3. Set Type:
 
-    | Data Type   | Description                       | Example            |
-    | ----------- | --------------------------------- | ------------------ |
-    | `set`       | Unordered, mutable, no duplicates | `{1, 2, 3}`        |
-    | `frozenset` | Unordered, immutable set          | `frozenset({1,2})` |
+| Data Type   | Description                       | Example            |
+| ----------- | --------------------------------- | ------------------ |
+| `set`       | Unordered, mutable, no duplicates | `{1, 2, 3}`        |
+| `frozenset` | Unordered, immutable set          | `frozenset({1,2})` |
 
     4. Mapping Type:
 
-    | Data Type | Description     | Example                        |
-    | --------- | --------------- | ------------------------------ |
-    | `dict`    | Key-value pairs | `{"name": "Alice", "age": 25}` |
+| Data Type | Description     | Example                        |
+| --------- | --------------- | ------------------------------ |
+| `dict`    | Key-value pairs | `{"name": "Alice", "age": 25}` |
 
     5. Boolean Type:
 
-    | Data Type | Description                   | Example         |
-    | --------- | ----------------------------- | --------------- |
-    | `bool`    | Boolean values: True or False | `True`, `False` |
+| Data Type | Description                   | Example         |
+| --------- | ----------------------------- | --------------- |
+| `bool`    | Boolean values: True or False | `True`, `False` |
 
     6. Binary Type:
 
-    | Data Type    | Description                 | Example               |
-    | ------------ | --------------------------- | --------------------- |
-    | `bytes`      | Immutable sequence of bytes | `b"hello"`            |
-    | `bytearray`  | Mutable sequence of bytes   | `bytearray([65, 66])` |
-    | `memoryview` | Memory view object          | `memoryview(b"abc")`  |
-
+| Data Type    | Description                 | Example               |
+| ------------ | --------------------------- | --------------------- |
+| `bytes`      | Immutable sequence of bytes | `b"hello"`            |
+| `bytearray`  | Mutable sequence of bytes   | `bytearray([65, 66])` |
+| `memoryview` | Memory view object          | `memoryview(b"abc")`  |
+   
 SUMMARY OF DATA TYPES:
 
 | Category | Types                              |
