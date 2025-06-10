@@ -93,15 +93,15 @@
 
 1. List Operations :
 
-    Access: Retrieve items by their index.
-    Add: Insert new items using append, insert, or extend.
-    Modify: Change the value of an item at a specific index.
-    Remove: Delete items using remove, pop, or del.
-    Search: Check if an item exists or find its position.
-    Sort: Arrange items in ascending or descending order.
-    Reverse: Reverse the order of items.
-    Length: Get the number of items in the list.
-    Iterate: Loop through all items one by one.
+    * Access: Retrieve items by their index.
+    * Add: Insert new items using append, insert, or extend.
+    * Modify: Change the value of an item at a specific index.
+    * Remove: Delete items using remove, pop, or del.
+    * Search: Check if an item exists or find its position.
+    * Sort: Arrange items in ascending or descending order.
+    * Reverse: Reverse the order of items.
+    * Length: Get the number of items in the list.
+    * Iterate: Loop through all items one by one.
 
 | Operation    | Method/Statement                   | Description                    |
 | ------------ | ---------------------------------- | ------------------------------ |
@@ -135,3 +135,31 @@
 | Reverse tuple | Use `reversed(tuple)` or slicing | Returns reversed iterator or new tuple  |
 | Length        | `len(tuple)`                     | Get number of items                     |
 | Iterate       | `for item in tuple`              | Loop through items                      |
+
+
+3. Set Operations:
+
+    * Add item: Add elements to the set.
+    * Remove item: Remove elements from the set.
+    * Access item: Not by index (sets are unordered).
+    * Search item: Check if an element exists in the set.
+    * Union: Combine two sets.
+    * Intersection: Get common elements between sets.
+    * Difference: Get elements in one set but not the other.
+    * Symmetric Difference: Elements in either set but not both.
+    * Length: Get number of elements.
+    * Iterate: Loop through all items.
+
+| Operation            | Method/Statement                                   | Description                                           |                                 |
+| -------------------- | -------------------------------------------------- | ----------------------------------------------------- | ------------------------------- |
+| Add item             | `add(item)`                                        | Add an element to the set                             |                                 |
+| Remove item          | `remove(item)`, `discard(item)`                    | Remove an element (discard does not error if missing) |                                 |
+| Clear set            | `clear()`                                          | Remove all elements                                   |                                 |
+| Search item          | `in`                                               | Check if an element exists                            |                                 |
+| Union                | `set1.union(set2)` or \`set1                       | set2\`                                                | Combine elements from both sets |
+| Intersection         | `set1.intersection(set2)` or `set1 & set2`         | Get common elements                                   |                                 |
+| Difference           | `set1.difference(set2)` or `set1 - set2`           | Elements in set1 not in set2                          |                                 |
+| Symmetric Difference | `set1.symmetric_difference(set2)` or `set1 ^ set2` | Elements in either set, but not both                  |                                 |
+| Length               | `len(set)`                                         | Get number of elements                                |                                 |
+| Iterate              | `for item in set`                                  | Loop through elements                                 |                                 |
+
