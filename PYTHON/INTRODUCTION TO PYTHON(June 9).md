@@ -511,3 +511,123 @@ import lets you use tools made by others, so you don’t have to write everythin
         |   Default           | `def greet(name="Guest")` | Uses default if no argument is passed |
         |   Variable-length   | `def add(*numbers):`      | Accepts multiple arguments            |
 
+        1. Positional Arguments:
+
+            Order matters — the values are assigned to parameters based on their position.
+
+            Example:
+
+                def greet(name, age):
+                    print(f"Hello {name}, you are {age} years old.")
+
+                greet("Alice", 25)  # name = "Alice", age = 25
+
+        2. Keyword Arguments:
+
+            You specify the parameter name, so order doesn't matter.
+            Makes the code more readable and flexible.          
+
+            Example:
+
+                greet(age=25, name="Alice")  # Same output as above
+
+        3. Default Arguments:
+
+            You assign default values to parameters in the function definition.
+            If no argument is passed, the default is used.
+
+            Example:
+
+                def greet(name, age=18):
+                    print(f"Hello {name}, you are {age} years old.")
+
+                greet("Bob")         # Uses default age = 18
+                greet("Alice", 25)   # Overrides default
+
+        4. Variable-Length Arguments :
+
+            These allow a function to accept any number of arguments.
+
+                a. *args (Non-keyword Variable-Length Arguments)
+
+                    Used to pass a variable number of positional arguments.
+                    Inside the function, args is a tuple.
+
+                    Example:
+
+                        def total(*numbers):
+                            print(sum(numbers))
+
+                        total(10, 20)         # 30
+                        total(5, 10, 15, 20)  # 50
+
+                b. **kwargs (Keyword Variable-Length Arguments)
+
+                    Used to pass a variable number of keyword arguments.
+                    Inside the function, kwargs is a dictionary.
+
+                    Example:
+
+                        def display_info(**info):
+                            for key, value in info.items():
+                                print(f"{key}: {value}")
+
+                        display_info(name="Alice", age=25, city="NY")
+
+# Data Types:
+
+    1. Numeric Types:
+
+    | Data Type | Description                      | Example        |
+    | --------- | -------------------------------- | -------------- |
+    | `int`     | Integer numbers                  | `10`, `-5`     |
+    | `float`   | Floating point (decimal) numbers | `3.14`, `-2.5` |
+    | `complex` | Complex numbers (with `j`)       | `3 + 4j`       |
+    
+    2. Sequence Type:
+
+    | Data Type | Description                 | Example              |
+    | --------- | --------------------------- | -------------------- |
+    | `str`     | String (text)               | `"hello"`, `'world'` |
+    | `list`    | Ordered, mutable sequence   | `[1, 2, 3]`          |
+    | `tuple`   | Ordered, immutable sequence | `(1, 2, 3)`          |
+    | `range`   | Sequence of numbers         | `range(5)`           |
+
+    3. Set Type:
+
+    | Data Type   | Description                       | Example            |
+    | ----------- | --------------------------------- | ------------------ |
+    | `set`       | Unordered, mutable, no duplicates | `{1, 2, 3}`        |
+    | `frozenset` | Unordered, immutable set          | `frozenset({1,2})` |
+
+    4. Mapping Type:
+
+    | Data Type | Description     | Example                        |
+    | --------- | --------------- | ------------------------------ |
+    | `dict`    | Key-value pairs | `{"name": "Alice", "age": 25}` |
+
+    5. Boolean Type:
+
+    | Data Type | Description                   | Example         |
+    | --------- | ----------------------------- | --------------- |
+    | `bool`    | Boolean values: True or False | `True`, `False` |
+
+    6. Binary Type:
+
+    | Data Type    | Description                 | Example               |
+    | ------------ | --------------------------- | --------------------- |
+    | `bytes`      | Immutable sequence of bytes | `b"hello"`            |
+    | `bytearray`  | Mutable sequence of bytes   | `bytearray([65, 66])` |
+    | `memoryview` | Memory view object          | `memoryview(b"abc")`  |
+
+    SUMMARY OF DATA TYPES:
+
+    | Category | Types                              |
+    | -------- | ---------------------------------- |
+    | Numeric  | `int`, `float`, `complex`          |
+    | Sequence | `str`, `list`, `tuple`, `range`    |
+    | Set      | `set`, `frozenset`                 |
+    | Mapping  | `dict`                             |
+    | Boolean  | `bool`                             |
+    | Binary   | `bytes`, `bytearray`, `memoryview` |
+    | Special  | `NoneType`                         |
