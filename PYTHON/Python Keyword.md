@@ -212,4 +212,15 @@ Summary
 | -------------- | -------------------------------------------------------------- |
 | **Comments**   | To explain tricky parts of logic, short notes                  |
 | **Docstrings** | To explain what a function/class/module does, its input/output |
-    
+
+# Indentation
+
+    Indentation means adding spaces at the beginning of a line to show that it belongs to a block of code.
+    Python uses indentation to group code — it's required, not just for style
+
+    Example: 
+
+        if age >= 18:
+        print("You are an adult")  # This line is indented — part of the if block
+
+    Without indentation, Python will show an error.
