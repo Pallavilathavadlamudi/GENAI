@@ -632,3 +632,14 @@ SUMMARY OF DATA TYPES:
 | Binary   | `bytes`, `bytearray`, `memoryview` |
 | Special  | `NoneType`                         |
 
+# Operators
+
+| **Operator Type** | **Operator(s)**                                  | **Description**                                 | **Example**                 |               |
+| ----------------- | ------------------------------------------------ | ----------------------------------------------- | --------------------------- | ------------- |
+| **Arithmetic**    | `+`, `-`, `*`, `/`, `//`, `%`, `**`              | Basic math operations                           | `5 + 3 = 8`                 |               |
+| **Comparison**    | `==`, `!=`, `>`, `<`, `>=`, `<=`                 | Compare values, returns True/False              | `5 > 3` → `True`            |               |
+| **Logical**       | `and`, `or`, `not`                               | Combine boolean expressions                     | `True and False` → `False`  |               |
+| **Assignment**    | `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=` , `**=` | Assign or update variable values                | `x += 2` means `x = x + 2`  |               |
+| **Bitwise**       | `&`, \`                                          | `, `^`, `\~`, `<<`, `>>\`                       | Operate on bits of integers | `5 & 3` → `1` |
+| **Membership**    | `in`, `not in`                                   | Check if value is (not) in a sequence           | `'a' in 'cat'` → `True`     |               |
+| **Identity**      | `is`, `is not`                                   | Check if two variables refer to the same object | `a is b`                    |               |
