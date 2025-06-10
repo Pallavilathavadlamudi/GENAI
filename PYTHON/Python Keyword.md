@@ -90,3 +90,72 @@ Explanation:
 | Identifier | The name used to identify a variable   | `myVariable`                        |
 | Variable   | A memory location holding the value    | `myVariable` stores `"hello world"` |
 | Value      | The actual data stored in the variable | `"hello world"`                     |
+
+# Rules for writing Identifiers?
+
+    1. Python is a case sensitive
+        
+        example:
+            Name and name are 2 different identifiers in python.
+
+Rules:
+
+1. Identifiers can be combination of uppercase and lowercase letters, digits or an underscore(_). 
+    So myVariable,variable_1, variable_for_print all are valid python identifiers.
+
+2. An Identifier can not start with digit. 
+    So while variable1 is valid, 1variable is not valid.
+
+3. We can’t use special symbols like !,#,@,%,$ etc in our Identifier.
+
+4. Identifier can be of any length.
+
+Do consider;
+
+    Absolutely! Below is a well-structured example program that demonstrates:
+
+    ✅ Class names with uppercase
+    ✅ Identifiers starting with lowercase
+    ✅ Private identifiers with leading underscore (_name)
+    ✅ Language-defined special method (__init__)
+    ✅ Meaningful variable names (count, not just c)
+    ✅ Underscore to separate multiple words (this_is_a_variable)
+
+    Example: 
+
+        # Class name starts with uppercase letter
+class Student:
+    # Language-defined special method (constructor)
+    def __init__(self, name, age):
+        # Private attribute (by convention, starts with underscore)
+        self._name = name
+        self.age = age
+
+    # Regular method
+    def display_info(self):
+        print("Student Name:", self._name)
+        print("Student Age:", self.age)
+
+    # Using meaningful variable names
+    student_count = 1
+
+    # Multiple words in identifier separated with underscore
+    first_student = Student("Alice", 20)
+
+    # Call a method on the object
+    first_student.display_info()
+
+    # Print count
+    print("Total students:", student_count)
+
+Explanation:
+
+| Identifier       | Type              | Why it's used                 |
+| ---------------- | ----------------- | ----------------------------- |
+| `Student`        | Class Name        | Starts with uppercase         |
+| `student_count`  | Variable          | Meaningful & descriptive      |
+| `first_student`  | Variable          | Uses underscores, descriptive |
+| `_name`          | Private attribute | Convention for "private"      |
+| `__init__`       | Special method    | Built-in method in Python     |
+| `display_info()` | Method            | Verb-based, clear meaning     |
+
