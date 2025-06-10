@@ -47,3 +47,46 @@ Explanation:
 | `while`     | Starts a while loop.                                                               |
 | `with`      | Used to wrap the execution of a block with methods defined by a context manager.   |
 | `yield`     | Returns a generator from a function.                                               |
+
+# Identifiers
+
+    Python Identifiers:
+
+        Python Identifier is the name we give to identify a variable, function, class, module or other object.
+
+        Sometimes variable and identifier are often misunderstood as same but they are not
+
+    Variable:
+
+        A variable, as the name indicates is something whose value is changeable over time. 
+        In fact a variable is a memory location where a value can be stored. 
+        Later we can retrieve the value to use. 
+        But for doing it we need to give a nickname to that memory location so that we can refer to it. 
+        That’s identifier, the nickname.
+
+        Example:
+
+        myVariable = "hello world"
+            print(myVariable)
+
+        explanation:
+
+        myVariable -> Identifier
+        "hello world" -> Value Stored
+        print(my variable) -> This outputs the value by using the identifier
+
+        var1 = 1
+            print(var1)
+
+        explanation:
+
+        var1 -> Identifier
+        "1" -> Value Stored
+        print(var1) -> This outputs the value by using the identifier
+
+
+    | Term       | Description                            | Example                             |
+    | ---------- | -------------------------------------- | ----------------------------------- |
+    | Identifier | The name used to identify a variable   | `myVariable`                        |
+    | Variable   | A memory location holding the value    | `myVariable` stores `"hello world"` |
+    | Value      | The actual data stored in the variable | `"hello world"`                     |
