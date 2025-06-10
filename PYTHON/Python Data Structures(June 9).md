@@ -163,3 +163,28 @@
 | Length               | `len(set)`                                         | Get number of elements                                |                                 |
 | Iterate              | `for item in set`                                  | Loop through elements                                 |                                 |
 
+4. Dictionary: 
+
+    * Add item: Insert a new key-value pair.
+    * Modify item: Change the value of an existing key.
+    * Remove item: Delete a key-value pair.
+    * Access item: Retrieve value by key.
+    * Search item: Check if a key exists.
+    * Keys, Values, Items: Get lists of keys, values, or key-value pairs.
+    * Clear: Remove all key-value pairs.
+    * Length: Get number of key-value pairs.
+    * Iterate: Loop through keys, values, or items.
+
+| Operation        | Method/Statement                                    | Description                          |
+| ---------------- | --------------------------------------------------- | ------------------------------------ |
+| Add item         | `dict[key] = value`                                 | Add or update key-value pair         |
+| Modify item      | `dict[key] = new_value`                             | Change value for existing key        |
+| Remove item      | `del dict[key]`, `pop(key)`                         | Delete key-value pair                |
+| Access item      | `dict[key]`                                         | Retrieve value by key                |
+| Search item      | `key in dict`                                       | Check if key exists                  |
+| Get keys         | `dict.keys()`                                       | Return all keys                      |
+| Get values       | `dict.values()`                                     | Return all values                    |
+| Get items        | `dict.items()`                                      | Return all key-value pairs as tuples |
+| Clear dictionary | `dict.clear()`                                      | Remove all key-value pairs           |
+| Length           | `len(dict)`                                         | Number of key-value pairs            |
+| Iterate          | `for key in dict` or `for key, val in dict.items()` | Loop through dictionary              |
