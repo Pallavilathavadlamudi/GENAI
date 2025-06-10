@@ -117,15 +117,15 @@
 
 2. Tuple Operations:
 
-    Add item: Not possible (tuples are immutable).
-    Modify item: Not possible (tuples are immutable).
-    Remove item: Not possible (tuples are immutable).
-    Access item: Retrieve items by their index.
-    Search item: Check if an item exists or find its position.
-    Sort: Not possible directly (tuples are immutable), but you can convert to a list to sort.
-    Reverse: Not possible directly, but can create a reversed tuple.
-    Length: Get the number of items in the tuple.
-    Iterate: Loop through all items one by one.
+    * Add item: Not possible (tuples are immutable).
+    * Modify item: Not possible (tuples are immutable).
+    * Remove item: Not possible (tuples are immutable).
+    * Access item: Retrieve items by their index.
+    * Search item: Check if an item exists or find its position.
+    * Sort: Not possible directly (tuples are immutable), but you can convert to a list to sort.
+    * Reverse: Not possible directly, but can create a reversed tuple.
+    * Length: Get the number of items in the tuple.
+    * Iterate: Loop through all items one by one.
 
 | Operation     | Method/Statement                 | Description                             |
 | ------------- | -------------------------------- | --------------------------------------- |
