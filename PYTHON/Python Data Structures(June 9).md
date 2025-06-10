@@ -15,10 +15,10 @@
 
 # Built-in Data Types:
 
-    1. List:
+1. List:
 
-        List items are ordered, changeable, and allow duplicate values.
-        List items are indexed, the first item has index [0], the second item has index [1] etc.
+    List items are ordered, changeable, and allow duplicate values.
+    List items are indexed, the first item has index [0], the second item has index [1] etc.
 
 |      Feature            |                Description                 |
 | ----------------------- | ------------------------------------------ |
@@ -32,6 +32,6 @@
             my_list = [item1, item2, item3, ...]
 
 
-    2. Tuple: 
+2. Tuple: 
 
-        Tuples are used to store multiple items in a single variable.
+    Tuples are used to store multiple items in a single variable.
