@@ -91,6 +91,13 @@ Explanation:
 | Variable   | A memory location holding the value    | `myVariable` stores `"hello world"` |
 | Value      | The actual data stored in the variable | `"hello world"`                     |
 
+Types of Variable
+
+| Type                | Where it's defined   | Where it's accessible     |
+| ------------------- | -------------------- | ------------------------- |
+| **Local Variable**  | Inside a function    | Only inside that function |
+| **Global Variable** | Outside any function | Anywhere in the program   |
+
 # Rules for writing Identifiers?
 
     1. Python is a case sensitive
