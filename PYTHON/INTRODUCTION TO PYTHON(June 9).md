@@ -620,14 +620,14 @@ import lets you use tools made by others, so you don’t have to write everythin
     | `bytearray`  | Mutable sequence of bytes   | `bytearray([65, 66])` |
     | `memoryview` | Memory view object          | `memoryview(b"abc")`  |
 
-    SUMMARY OF DATA TYPES:
+SUMMARY OF DATA TYPES:
 
-    | Category | Types                              |
-    | -------- | ---------------------------------- |
-    | Numeric  | `int`, `float`, `complex`          |
-    | Sequence | `str`, `list`, `tuple`, `range`    |
-    | Set      | `set`, `frozenset`                 |
-    | Mapping  | `dict`                             |
-    | Boolean  | `bool`                             |
-    | Binary   | `bytes`, `bytearray`, `memoryview` |
-    | Special  | `NoneType`                         |
+| Category | Types                              |
+| -------- | ---------------------------------- |
+| Numeric  | `int`, `float`, `complex`          |
+| Sequence | `str`, `list`, `tuple`, `range`    |
+| Set      | `set`, `frozenset`                 |
+| Mapping  | `dict`                             |
+| Boolean  | `bool`                             |
+| Binary   | `bytes`, `bytearray`, `memoryview` |
+| Special  | `NoneType`                         |
