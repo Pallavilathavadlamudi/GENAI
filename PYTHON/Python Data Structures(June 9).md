@@ -188,3 +188,5 @@
 | Clear dictionary | `dict.clear()`                                      | Remove all key-value pairs           |
 | Length           | `len(dict)`                                         | Number of key-value pairs            |
 | Iterate          | `for key in dict` or `for key, val in dict.items()` | Loop through dictionary              |
+
+

@@ -454,6 +454,34 @@ import lets you use tools made by others, so you don’t have to write everythin
             square = lambda x: x * x
             print(square(5))      # Output: 25
 
+# Lambda Function
+
+    A lambda function in Python is a small anonymous function (a function without a name) that is defined using the lambda keyword.
+
+    Syntax:
+
+        lambda arguments: expression
+
+    It can have any number of arguments but only one expression.
+    The expression is evaluated and returned automatically.
+    Typically used for short, simple functions, often as arguments to higher-order functions like map(), filter(), or sorted().
+
+        # A lambda function to add 10 to a number
+        
+            add_ten = lambda x: x + 10
+            print(add_ten(5))  # Output: 15
+        
+        # A lambda function with two arguments
+            
+            multiply = lambda x, y: x * y
+            print(multiply(3, 4))  # Output: 12
+
+            # Example with sorted()
+    
+            people = [('Alice', 25), ('Bob', 30), ('Charlie', 20)]
+            sorted_people = sorted(people, key=lambda person: person[1])
+            print(sorted_people)
+
 # Parameters & Arguments:
 
     Parameter:
