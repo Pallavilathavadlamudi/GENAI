@@ -23,3 +23,14 @@
 | `x+`     | Exclusive creation with read/write    | Creates new file for **reading and writing**. Error if file exists.                             |
 | `xb+`    | Exclusive creation in binary with r/w | Creates new **binary** file for reading and writing. Error if file exists.                      |
 
+
+# Difference Between File(Text file) and Binary file
+
+| Feature             | Text File (`"r"`, `"w"`, etc.)        | Binary File (`"rb"`, `"wb"`, etc.)          |
+| ------------------- | ------------------------------------- | ------------------------------------------- |
+| **Content Type**    | Human-readable text (e.g., `"Hello"`) | Raw bytes (e.g., `b'\x48\x65\x6c\x6c\x6f'`) |
+| **Data Format**     | Encoded in characters (usually UTF-8) | Stored in exact byte format (e.g., images)  |
+| **Used For**        | Text, CSV, logs, Python code          | Images, audio, videos, PDFs, custom formats |
+| **How to Open**     | `"r"`, `"w"`, `"a"`                   | `"rb"`, `"wb"`, `"ab"`                      |
+| **Write/Read Type** | Strings (`"Hello"`)                   | Bytes (`b"Hello"`)                          |
+| **Examples**        | `.txt`, `.csv`, `.py`                 | `.jpg`, `.mp3`, `.exe`, `.bin`              |

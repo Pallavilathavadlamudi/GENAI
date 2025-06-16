@@ -1,3 +1,1 @@
-This is a binary file. 
-This file is used to demonstrate binary file operations in python. 
-This is an appened line in binary file. 
+This is a test binary fileThis file is used to demonstrate binay file operations in python. 
