@@ -1,0 +1,202 @@
+product_category,ship_state,total_quantity,total_sales,order_count
+Set,Maharashtra,1471,1177576.0,1463
+Set,Karnataka,1044,832627.0,1042
+Set,Uttar Pradesh,875,739626.0,876
+kurta,Maharashtra,1536,694934.0,1530
+Western Dress,Maharashtra,834,613595.0,834
+Set,Delhi,713,572173.0,713
+kurta,Karnataka,1197,541813.0,1191
+Set,Telangana,645,535604.0,641
+Western Dress,Karnataka,645,478551.0,644
+Set,Tamil Nadu,502,397709.0,500
+kurta,Telangana,859,383328.0,853
+Western Dress,Telangana,495,376727.0,492
+kurta,Tamil Nadu,808,360439.0,804
+Set,Haryana,369,308541.0,367
+Western Dress,Tamil Nadu,361,265950.0,360
+kurta,Uttar Pradesh,577,254659.0,569
+Set,Gujarat,278,220841.0,277
+Set,Andhra Pradesh,263,219628.0,262
+Set,West Bengal,270,217347.0,269
+kurta,Delhi,462,211630.0,459
+Western Dress,Uttar Pradesh,275,205264.0,267
+Top,Maharashtra,395,189880.0,395
+Set,Kerala,225,184314.0,226
+Western Dress,Kerala,247,183056.0,244
+Set,Rajasthan,198,167610.0,197
+kurta,West Bengal,339,156710.0,338
+kurta,Kerala,340,153910.0,340
+Western Dress,Gujarat,192,145723.0,192
+Set,Punjab,164,143822.0,159
+kurta,Andhra Pradesh,324,143185.0,325
+Western Dress,Delhi,182,131335.0,182
+kurta,Gujarat,254,119315.0,254
+Set,Madhya Pradesh,137,117807.0,137
+Western Dress,Andhra Pradesh,155,116415.0,155
+Set,Bihar,134,113674.0,134
+Top,Karnataka,227,109203.0,227
+Set,Uttarakhand,121,103506.0,120
+Western Dress,West Bengal,136,98469.0,136
+kurta,Haryana,209,96115.0,209
+Set,Jharkhand,115,93197.0,115
+Western Dress,Haryana,124,91742.0,124
+Set,Assam,108,89554.0,108
+Set,Odisha,99,88525.0,99
+kurta,Rajasthan,163,74200.0,163
+kurta,Madhya Pradesh,138,66887.0,138
+Top,Delhi,138,64454.0,138
+Top,Uttar Pradesh,114,58723.0,114
+Top,Telangana,103,52741.0,102
+Western Dress,Rajasthan,69,51515.0,69
+Top,Haryana,101,51201.0,99
+Top,Gujarat,93,47622.0,93
+Top,Tamil Nadu,96,45944.0,96
+Set,Himachal Pradesh,57,45291.0,57
+Western Dress,Madhya Pradesh,66,45262.0,66
+Set,Jammu & Kashmir,53,44381.0,53
+Set,Chhattisgarh,56,43485.0,56
+Top,West Bengal,77,37583.0,76
+kurta,Odisha,79,37458.0,79
+kurta,Punjab,78,34281.0,78
+kurta,Jharkhand,80,34051.0,80
+kurta,Uttarakhand,73,33058.0,73
+Western Dress,Bihar,45,32547.0,42
+kurta,Bihar,70,31076.0,70
+kurta,Assam,74,30410.0,74
+Ethnic Dress,Maharashtra,44,30108.0,44
+Western Dress,Punjab,36,26331.0,36
+Western Dress,Odisha,35,26290.0,35
+Set,Chandigarh,32,26139.0,32
+Set,Manipur,29,24790.0,29
+Set,Goa,30,23601.0,30
+Ethnic Dress,Telangana,30,21728.0,30
+Western Dress,Jharkhand,29,21525.0,29
+Western Dress,Assam,29,21242.0,29
+Ethnic Dress,Karnataka,26,19907.0,26
+kurta,Goa,46,19094.0,46
+kurta,Chhattisgarh,41,17968.0,41
+kurta,Jammu & Kashmir,42,17730.0,42
+Top,Kerala,35,16807.0,35
+kurta,Chandigarh,32,16395.0,32
+Blouse,Karnataka,30,16341.0,30
+Set,Nagaland,18,14981.0,16
+Ethnic Dress,Uttar Pradesh,21,14710.0,21
+Western Dress,Uttarakhand,19,14615.0,19
+Top,Punjab,25,13642.0,25
+Top,Rajasthan,27,13126.0,27
+Western Dress,Chhattisgarh,17,12456.0,17
+Top,Andhra Pradesh,21,12239.0,21
+kurta,Himachal Pradesh,27,11920.0,27
+Top,Uttarakhand,23,11322.0,23
+Western Dress,Goa,15,11120.0,15
+Western Dress,Puducherry,15,11116.0,15
+Ethnic Dress,Tamil Nadu,13,10716.0,13
+Western Dress,Jammu & Kashmir,14,9727.0,14
+Set,Andaman & Nicobar,13,9685.0,13
+Ethnic Dress,Delhi,16,9535.0,15
+Ethnic Dress,Haryana,15,9473.0,15
+Blouse,Maharashtra,19,9391.0,19
+Top,Madhya Pradesh,18,8704.0,18
+kurta,Puducherry,22,8675.0,22
+Set,Tripura,10,8653.0,10
+Set,Puducherry,11,8364.0,11
+Set,Sikkim,9,8094.0,9
+Blouse,Telangana,16,7734.0,16
+Western Dress,Chandigarh,10,7418.0,10
+Blouse,Tamil Nadu,15,7337.0,15
+Set,Meghalaya,8,7106.0,8
+kurta,Meghalaya,17,6375.0,17
+Bottom,Maharashtra,19,6369.0,19
+Top,Assam,14,6322.0,14
+Blouse,Uttar Pradesh,14,6284.0,14
+Top,Odisha,12,5744.0,12
+Bottom,Karnataka,17,5462.0,17
+Top,Jharkhand,10,5429.0,10
+Western Dress,Himachal Pradesh,6,5305.0,6
+Top,Bihar,11,5263.0,11
+Bottom,Uttar Pradesh,14,5096.0,14
+kurta,Tripura,10,4640.0,10
+Ethnic Dress,Gujarat,7,4587.0,7
+Top,Manipur,9,4553.0,9
+kurta,Manipur,11,4536.0,11
+Top,Chandigarh,8,4326.0,8
+Western Dress,Meghalaya,6,4114.0,6
+Western Dress,Nagaland,6,3810.0,6
+kurta,Nagaland,9,3623.0,8
+Western Dress,Andaman & Nicobar,5,3593.0,5
+Bottom,Tamil Nadu,10,3440.0,10
+Top,Goa,7,3322.0,7
+Saree,Maharashtra,4,3212.0,3
+Set,Ladakh,3,3188.0,3
+Set,Arunachal Pradesh,4,3121.0,4
+Top,Chhattisgarh,8,3087.0,8
+kurta,Andaman & Nicobar,8,2828.0,8
+Western Dress,Manipur,4,2794.0,4
+Western Dress,Sikkim,3,2764.0,3
+Saree,Telangana,3,2630.0,3
+Bottom,Gujarat,7,2453.0,6
+Ethnic Dress,Kerala,3,2397.0,3
+Set,New Delhi,3,2324.0,3
+Western Dress,Arunachal Pradesh,3,2270.0,3
+Saree,Uttar Pradesh,3,2251.0,3
+Blouse,Delhi,5,2220.0,5
+Blouse,Haryana,4,2202.0,4
+Blouse,West Bengal,5,2178.0,5
+Blouse,Gujarat,4,2174.0,4
+Top,Arunachal Pradesh,4,2109.0,4
+Ethnic Dress,Madhya Pradesh,3,2030.0,3
+Bottom,Telangana,6,2026.0,6
+Top,Himachal Pradesh,4,1943.0,4
+Bottom,Delhi,5,1874.0,5
+Ethnic Dress,Odisha,2,1743.0,2
+Saree,Odisha,2,1622.0,2
+Bottom,Rajasthan,4,1607.0,4
+Western Dress,New Delhi,3,1578.0,3
+kurta,Arunachal Pradesh,4,1575.0,4
+Top,Sikkim,3,1513.0,3
+Western Dress,Tripura,2,1506.0,2
+Bottom,Haryana,4,1495.0,4
+Ethnic Dress,West Bengal,3,1456.0,3
+Bottom,Bihar,4,1440.0,3
+Top,Meghalaya,3,1373.0,3
+Ethnic Dress,Uttarakhand,2,1357.0,2
+Blouse,Kerala,3,1298.0,3
+Top,Jammu & Kashmir,2,1280.0,2
+Top,Puducherry,3,1275.0,3
+kurta,Mizoram,3,1271.0,3
+Bottom,West Bengal,4,1248.0,4
+Ethnic Dress,Bihar,2,1218.0,2
+Bottom,Andhra Pradesh,4,1187.0,4
+Blouse,Rajasthan,2,1158.0,2
+Bottom,Kerala,3,1141.0,3
+Ethnic Dress,Assam,2,1139.0,2
+Blouse,Andhra Pradesh,2,1118.0,2
+Ethnic Dress,Himachal Pradesh,1,1099.0,1
+Ethnic Dress,Andhra Pradesh,2,1098.0,2
+Blouse,Jharkhand,2,1084.0,2
+Top,New Delhi,2,1065.0,2
+Top,Mizoram,2,1058.0,2
+Blouse,Uttarakhand,2,1044.0,2
+Bottom,Punjab,3,1040.0,3
+Blouse,Madhya Pradesh,2,1002.0,2
+Set,Mizoram,1,999.0,1
+Ethnic Dress,Puducherry,1,999.0,1
+Top,Andaman & Nicobar,2,892.0,2
+Ethnic Dress,Rajasthan,1,885.0,1
+Blouse,Assam,2,884.0,2
+Top,Nagaland,2,880.0,2
+Blouse,Himachal Pradesh,1,879.0,1
+kurta,New Delhi,2,855.0,2
+Saree,Delhi,1,749.0,1
+Western Dress,Mizoram,1,744.0,1
+Bottom,Assam,3,735.0,3
+Blouse,Punjab,2,701.0,2
+Ethnic Dress,Punjab,1,699.0,1
+Bottom,Odisha,2,677.0,2
+Top,Ladakh,1,563.0,1
+Blouse,Odisha,1,419.0,1
+Top,Tripura,1,399.0,1
+Bottom,Madhya Pradesh,2,379.0,2
+Bottom,Chandigarh,1,360.0,1
+Bottom,Manipur,1,360.0,1
+Bottom,Jammu & Kashmir,1,356.0,1
