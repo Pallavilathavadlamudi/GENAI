@@ -148,6 +148,8 @@ Data can be categorized in several ways, but the most common classifications are
 * **Raw Data** = Uncooked ingredients
 * **Processed Data** = Prepared dish, ready to eat (or analyze)
 
+## **Labeled Data and Unlabeled Data**
+
 ### **Labeled Data**
 
 **Definition:**
