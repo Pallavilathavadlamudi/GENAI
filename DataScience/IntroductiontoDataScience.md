@@ -121,4 +121,90 @@ You can’t do effective Data Science with just one skill set. For example:
 
 > **Data Science is interdisciplinary because it merges knowledge from statistics, computer science, domain expertise, and communication to extract insights and solve problems using data.**
 
+###  **RDBMS is *not* interdisciplinary by itself.**
+
+###  What is RDBMS?
+
+**RDBMS (Relational Database Management System)** is a **software system** used to store and manage **structured data** in a tabular format (rows and columns). 
+Examples include MySQL, PostgreSQL, Oracle, and SQL Server.
+
+It uses **SQL** to:
+
+* Query data
+* Update records
+* Enforce relationships between tables (e.g., with foreign keys)
+
+### Why It’s *Not* Interdisciplinary
+
+> **RDBMS is a single discipline** — it belongs primarily to the field of **database systems** and **computer science**.
+
+It focuses on:
+
+* Data storage
+* Data integrity
+* Query optimization
+* Relational logic
+
+These are **technical database concepts**, not a blend of multiple fields.
+
+### When Does It Become Part of an Interdisciplinary Process?
+
+It becomes **part of an interdisciplinary workflow** **when used in Data Science, Business Intelligence, or Software Engineering**, where you combine:
+
+* **RDBMS (Database knowledge)**
+* **Statistics** (to analyze stored data)
+* **Programming** (to automate and extend queries via Python, R, etc.)
+* **Domain Expertise** (to interpret what the data means)
+* **Visualization** (e.g., using Power BI or Tableau)
+
+### Summary:
+
+* ❌ **RDBMS alone is not interdisciplinary** — it's a structured data system rooted in computer science.
+* ✅ **Using RDBMS within a larger project** (like Data Science or BI) makes the work **interdisciplinary** because it brings in multiple knowledge areas to solve real-world problems.
+
+#### 1. **Database Knowledge (RDBMS / SQL)**
+
+You need to:
+
+* Understand how to design efficient schemas
+* Query large tables using SQL
+* Ensure data integrity and normalization
+  🧠 **Discipline**: *Database Management / Computer Science*
+
+#### 2. **Statistics / Mathematics**
+
+Once you retrieve the data, you often need to:
+
+* Calculate trends, averages, correlations
+* Perform hypothesis testing or forecasting
+  🧠 **Discipline**: *Statistics / Mathematics*
+
+#### 3. **Programming (Python, R)**
+
+To automate data workflows or apply advanced models:
+
+* Extract data using SQL in Python scripts
+* Use pandas or NumPy to clean and transform it
+* Train machine learning models
+  🧠 **Discipline**: *Computer Programming / Data Engineering*
+
+#### 4. **Domain Knowledge**
+
+You must **understand the business context**:
+
+* In e-commerce: What does "churn" mean?
+* In healthcare: What’s a critical patient metric?
+* In finance: How is risk calculated?
+
+This helps you ask the **right questions** and interpret the results meaningfully.
+🧠 **Discipline**: *Business / Industry-specific Expertise*
+
+#### 5. **Data Visualization / Communication**
+
+Once analysis is done, you must:
+
+* Create charts, dashboards, or reports
+* Communicate findings clearly to non-technical stakeholders
+  🧠 **Discipline**: *Storytelling / Design / Communication*
+
 
