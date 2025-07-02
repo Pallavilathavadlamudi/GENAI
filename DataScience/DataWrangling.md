@@ -206,4 +206,61 @@ Tools:
 
 >  **Data Extraction** is the **first step** in the ETL (Extract, Transform, Load) pipeline — and it's essential to access quality data before analysis or modeling.
 
+## **Types of Data**
+
+Data can be categorized in several ways, but the most common classifications are:
+
+### 1. **Structured Data**
+
+* Data that is organized into **tables**, **rows**, and **columns**
+* Easily stored in **relational databases** like SQL
+* Examples:
+
+  * Sales records
+  * Employee database
+  * Bank transactions
+
+*Easy to search and analyze using SQL or spreadsheets*
+
+### 2. **Unstructured Data**
+
+* Data with **no fixed format or schema**
+* Harder to organize and analyze directly
+* Examples:
+
+  * Text (emails, reviews, social media posts)
+  * Images, videos, audio files
+  * Scanned documents
+
+*Requires advanced tools like NLP or image processing to analyze*
+
+### 3. **Semi-Structured Data**
+
+* Data that **has some structure** but not in a traditional table format
+* Often stored in formats like **JSON, XML, NoSQL**
+* Examples:
+
+  * Sensor logs
+  * API responses
+  * Web scraping output
+
+*Has labels or tags but not strictly tabular*
+
+---
+
+## **Raw Data vs. Processed Data**
+
+| Feature            | **Raw Data**                                                      | **Processed Data**                                             |
+| ------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Definition**     | Data collected **directly from source** with **no modifications** | Data that has been **cleaned, formatted, and transformed**     |
+| **Structure**      | Often messy, unorganized                                          | Well-structured and analysis-ready                             |
+| **Examples**       | - Log files<br>- Sensor readings<br>- Survey responses as-is      | - Cleaned CSV file<br>- Database table<br>- Summary statistics |
+| **Use Case**       | Initial capture for storage                                       | Used in analysis, dashboards, or ML                            |
+| **Tools Required** | May need special parsing or scripting                             | Ready for Excel, SQL, or ML models                             |
+| **Quality**        | May include errors, noise, duplicates                             | High-quality and consistent                                    |
+
+###  In simple terms:
+
+* **Raw Data** = Uncooked ingredients
+* **Processed Data** = Prepared dish, ready to eat (or analyze)
 
