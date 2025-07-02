@@ -91,3 +91,34 @@ Because in a world overflowing with data:
 **Data Science is the bridge between raw data and intelligent action.**
 It helps us move from guessing to knowing — and from reacting to predicting.
 
+### Why is Data Science **Interdisciplinary**?
+
+**Data Science is considered an *interdisciplinary field*** because it brings together knowledge and techniques from **multiple domains** to solve complex real-world problems.
+
+It’s not just about coding or statistics — it’s a blend of several disciplines working together.
+
+### Core Disciplines That Make Up Data Science:
+
+| Discipline                                                 | Role in Data Science                                                                                                    |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Statistics & Mathematics**                               | For understanding data distributions, patterns, and building models (e.g., regression, probability, hypothesis testing) |
+| **Computer Science / Programming**                         | For writing code, automating tasks, building algorithms (using Python, R, SQL)                                          |
+| **Domain Knowledge (Business, Healthcare, Finance, etc.)** | To ask the *right* questions and interpret results meaningfully within a specific context                               |
+| **Machine Learning / AI**                                  | For making predictions, classifications, and learning from data automatically                                           |
+| **Data Engineering**                                       | For collecting, storing, and managing data pipelines (e.g., databases, ETL)                                             |
+| **Data Visualization / Communication**                     | For presenting insights clearly to stakeholders using charts, dashboards, and reports                                   |
+
+### Why This Matters:
+
+You can’t do effective Data Science with just one skill set. For example:
+
+* A model that predicts customer churn is **useless** if you don’t understand the business context.
+* A beautiful dashboard is **misleading** if the data wasn’t properly cleaned or understood statistically.
+
+👉 **True value comes from combining all these disciplines.**
+
+### Summary:
+
+> **Data Science is interdisciplinary because it merges knowledge from statistics, computer science, domain expertise, and communication to extract insights and solve problems using data.**
+
+
