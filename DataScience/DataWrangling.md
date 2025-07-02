@@ -90,6 +90,8 @@ Tools:
 
 >  **Data Extraction** is the **first step** in the ETL (Extract, Transform, Load) pipeline — and it's essential to access quality data before analysis or modeling.
 
+---
+
 ## **Types of Data**
 
 Data can be categorized in several ways, but the most common classifications are:
@@ -130,8 +132,6 @@ Data can be categorized in several ways, but the most common classifications are
 
 *Has labels or tags but not strictly tabular*
 
----
-
 ## **Raw Data vs. Processed Data**
 
 | Feature            | **Raw Data**                                                      | **Processed Data**                                             |
@@ -169,6 +169,8 @@ Data that includes only the input, without any known labels or outcomes.
 
 * Text: "Great product!" → No label
 * Image: \[Picture of a cat] → No label
+
+---
 
 ## **Data Wrangling**
 
