@@ -264,3 +264,23 @@ Data can be categorized in several ways, but the most common classifications are
 * **Raw Data** = Uncooked ingredients
 * **Processed Data** = Prepared dish, ready to eat (or analyze)
 
+### **Labeled Data**
+
+**Definition:**
+Data that includes both the input and the correct output (label).
+
+**Example:**
+
+* Text: "Great product!" → Label: *Positive*
+* Image: \[Picture of a cat] → Label: *Cat*
+
+### **Unlabeled Data**
+
+**Definition:**
+Data that includes only the input, without any known labels or outcomes.
+
+**Example:**
+
+* Text: "Great product!" → No label
+* Image: \[Picture of a cat] → No label
+
