@@ -169,7 +169,8 @@ You need to:
 * Understand how to design efficient schemas
 * Query large tables using SQL
 * Ensure data integrity and normalization
-  🧠 **Discipline**: *Database Management / Computer Science*
+
+**Discipline**: *Database Management / Computer Science*
 
 #### 2. **Statistics / Mathematics**
 
@@ -177,7 +178,8 @@ Once you retrieve the data, you often need to:
 
 * Calculate trends, averages, correlations
 * Perform hypothesis testing or forecasting
-  🧠 **Discipline**: *Statistics / Mathematics*
+
+**Discipline**: *Statistics / Mathematics*
 
 #### 3. **Programming (Python, R)**
 
@@ -186,7 +188,8 @@ To automate data workflows or apply advanced models:
 * Extract data using SQL in Python scripts
 * Use pandas or NumPy to clean and transform it
 * Train machine learning models
-  🧠 **Discipline**: *Computer Programming / Data Engineering*
+
+**Discipline**: *Computer Programming / Data Engineering*
 
 #### 4. **Domain Knowledge**
 
@@ -197,7 +200,8 @@ You must **understand the business context**:
 * In finance: How is risk calculated?
 
 This helps you ask the **right questions** and interpret the results meaningfully.
-🧠 **Discipline**: *Business / Industry-specific Expertise*
+
+**Discipline**: *Business / Industry-specific Expertise*
 
 #### 5. **Data Visualization / Communication**
 
@@ -205,6 +209,7 @@ Once analysis is done, you must:
 
 * Create charts, dashboards, or reports
 * Communicate findings clearly to non-technical stakeholders
-  🧠 **Discipline**: *Storytelling / Design / Communication*
+
+**Discipline**: *Storytelling / Design / Communication*
 
 
