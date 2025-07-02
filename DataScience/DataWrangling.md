@@ -170,6 +170,8 @@ Data that includes only the input, without any known labels or outcomes.
 * Text: "Great product!" → No label
 * Image: \[Picture of a cat] → No label
 
+## **Data Wrangling**
+
 ### What is **Data Wrangling**?
 
 **Data Wrangling**, also known as **Data Munging**, is the process of **cleaning, transforming, and preparing raw data** into a usable format for analysis or modeling.
