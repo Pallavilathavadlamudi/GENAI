@@ -68,7 +68,7 @@ df = df[(df['salary'] >= Q1 - 1.5 * IQR) & (df['salary'] <= Q3 + 1.5 * IQR)]
 ```python
 df['age_bin'] = pd.cut(df['age'], bins=[0, 18, 35, 60, 100], labels=['Teen', 'Adult', 'MidAge', 'Senior'])
 ```
-
+pd.cut-It divides a numerical series or array into a specified number of equal-width bins or into custom-defined bins based on provided edges.
 ---
 
 ###  **Log Transformation**
@@ -89,6 +89,7 @@ df['log_sales'] = np.log1p(df['sales'])  # log1p avoids issues with log(0)
 ```python
 df = pd.get_dummies(df, columns=['product_category'])
 ```
+pd.get_dummies() is a Pandas function used for one-hot encoding categorical variables. It converts categorical data into a numerical format that can be used by machine learning algorithms.
 
 ---
 
