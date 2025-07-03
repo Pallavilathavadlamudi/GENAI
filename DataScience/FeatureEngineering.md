@@ -29,15 +29,15 @@ It’s about **creating**, **transforming**, and **selecting** the right inputs 
 * **Purpose**: Make features more usable for models and improve performance.
 * **Common Techniques**:
 
-| Task                  | Purpose                                               |
-| --------------------- | ----------------------------------------------------- |
-| **Imputation**        | Fill missing values to avoid data loss                |
-| **Outlier Handling**  | Avoid skewing model with extreme values               |
-| **Binning**           | Convert numerical values into categorical bins        |
-| **Log Transform**     | Normalize skewed data                                 |
-| **One-Hot Encoding**  | Convert categorical to numerical                      |
-| **Feature Splitting** | Extract parts from compound values                    |
-| **Scaling**           | Normalize feature values (standardization or min-max) |
+    | Task                  | Purpose                                               |
+    | --------------------- | ----------------------------------------------------- |
+    | **Imputation**        | Fill missing values to avoid data loss                |
+    | **Outlier Handling**  | Avoid skewing model with extreme values               |
+    | **Binning**           | Convert numerical values into categorical bins        |
+    | **Log Transform**     | Normalize skewed data                                 |
+    | **One-Hot Encoding**  | Convert categorical to numerical                      |
+    | **Feature Splitting** | Extract parts from compound values                    |
+    | **Scaling**           | Normalize feature values (standardization or min-max) |
 
 ---
 
