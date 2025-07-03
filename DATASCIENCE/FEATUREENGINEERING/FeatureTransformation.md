@@ -24,9 +24,9 @@ Here's a breakdown of the key transformation tasks and their purposes:
 | **Task**                 | **Purpose**                                                                 |
 | ------------------------ | --------------------------------------------------------------------------- |
 | **1. Imputation**        | Fill in missing values to prevent information loss or model errors          |
-| **2. Outlier Handling**  | Prevent extreme values from distorting model training                       |
+| **2. Outlier Handling**  | Prevent extreme values from misleading model training                       |
 | **3. Binning**           | Convert continuous variables into discrete intervals (bins)                 |
-| **4. Log Transform**     | Normalize right-skewed data (e.g., income, prices)                          |
+| **4. Log Transform**     | Normalize right-skewed data (e.g., income, prices)                         |
 | **5. One-Hot Encoding**  | Convert categorical variables into numeric binary columns                   |
 | **6. Feature Splitting** | Split compound features (like full address or datetime) into multiple parts |
 | **7. Scaling**           | Normalize numerical feature ranges for fair comparison                      |
@@ -141,4 +141,102 @@ df[['income', 'expenses']] = scaler.fit_transform(df[['income', 'expenses']])
 | One-Hot Encoding  | Convert categorical → numeric          | `shirt` → \[1, 0, 0]            |
 | Feature Splitting | Derive new features from compound data | `2024-06-13` → month=6, day=13  |
 | Scaling           | Standardize feature ranges             | Income scaled to mean=0, std=1  |
+
+## What is **Skewed Data**?
+
+**Skewed data** refers to a distribution where the values are **not symmetrically distributed** around the mean. In other words, one "tail" of the distribution is **longer or fatter** than the other.
+
+---
+
+##  Types of Skewness
+
+| Type of Skew                   | Description                          | Distribution Shape | Mean vs. Median |
+| ------------------------------ | ------------------------------------ | ------------------ | --------------- |
+| **Right Skew (Positive Skew)** | Tail is longer on the **right**      | ▸▸▸▸▸📈            | Mean > Median   |
+| **Left Skew (Negative Skew)**  | Tail is longer on the **left**       | 📉◂◂◂◂◂            | Mean < Median   |
+| **No Skew (Symmetrical)**      | Balanced shape (normal distribution) | 🔔                 | Mean ≈ Median   |
+
+---
+
+## Examples of Skewed Data in Real Life
+
+| Feature                         | Skew Type                                                  |
+| ------------------------------- | ---------------------------------------------------------- |
+| **Income**                      | Right-skewed  (a few very rich people pull the average up) |
+| **Sales amounts**               | Right-skewed  (many low values, few high-value purchases)  |
+| **Age of death in accidents**   | Left-skewed (most are young people)                        |
+| **Exam scores** (in hard exams) | Right-skewed (most people score low, few get high scores)  |
+
+---
+
+## Why is Skewness a Problem in ML?
+
+Some ML models (especially **linear models, logistic regression, KNN**) assume features are **normally distributed** (bell curve). Skewed data can lead to:
+
+* Poor model performance
+* Misleading feature importance
+* Biased predictions
+* Ineffective scaling
+
+---
+
+## How to Fix Skewed Data (Log Transform)
+
+If you have **right-skewed data**, you can **transform it** to make it more symmetrical using techniques like:
+
+### **Log Transform**
+
+```python
+import numpy as np
+df['log_sales'] = np.log1p(df['sales'])  # log1p handles 0s safely
+```
+
+### **Square Root Transform**
+
+```python
+df['sqrt_sales'] = np.sqrt(df['sales'])
+```
+
+### **Box-Cox Transform** (for positive values)
+
+```python
+from scipy.stats import boxcox
+df['sales_transformed'], _ = boxcox(df['sales'] + 1)
+```
+
+---
+
+## How to Detect Skewed Data
+
+### 1. **Visually using histograms**
+
+```python
+import matplotlib.pyplot as plt
+df['sales'].hist(bins=50)
+plt.title('Sales Distribution')
+```
+
+### 2. **Skewness Score**
+
+```python
+df['sales'].skew()  # > 0 = right skew, < 0 = left skew
+```
+
+> Rule of thumb:
+
+* **Skew > 1** → Highly skewed
+* **0.5 < Skew ≤ 1** → Moderately skewed
+* **Skew ≤ 0.5** → Fairly symmetric
+
+---
+
+## Summary
+
+| Concept     | Meaning                                                 |
+| ----------- | ------------------------------------------------------- |
+| Skewed Data | Distribution is not symmetric — longer tail on one side |
+| Right Skew  | Many small values, few very large values                |
+| Left Skew   | Many high values, few very small values                 |
+| Why fix it? | Many models assume normal distribution                  |
+| Fix with    | Log, sqrt, Box-Cox transforms                           |
 
