@@ -91,5 +91,3 @@ Instead of writing fixed rules, we let the machine **learn those rules from exam
 ### Summary:
 
 > **Machine Learning allows systems to "learn" from data and make decisions — often better, faster, and more scalable than human-written rules.**
-
-Let me know if you want this in one line for interviews or a visual representation!
