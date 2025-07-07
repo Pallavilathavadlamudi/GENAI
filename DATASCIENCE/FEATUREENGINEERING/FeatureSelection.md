@@ -114,4 +114,126 @@ importances = model.feature_importances_
 | **How**   | Filter, Wrapper, and Embedded methods                            |
 | **Tools** | Scikit-learn (`SelectKBest`, `RFE`, tree models), XGBoost, Lasso |
 
+Certainly! Here's a structured explanation of the **three main methods of Feature Selection**, often referred to as:
 
+---
+
+# **Feature Selection Methods**
+
+Feature selection methods are techniques used to **identify and keep only the most relevant features** (input variables) in your dataset for training machine learning models.
+
+There are **three main methods**:
+
+---
+
+## **Filter Methods**
+
+### What it does:
+
+* Select features **based on statistical measures**.
+* Evaluates each feature **independently of the model**.
+
+### Best for:
+
+* Quick and scalable preprocessing
+* High-dimensional data (e.g., text features)
+
+### Common Techniques:
+
+| Technique              | Purpose                                      |
+| ---------------------- | -------------------------------------------- |
+| **Correlation Matrix** | Remove highly correlated variables           |
+| **Chi-Squared Test**   | For categorical features vs. target          |
+| **Mutual Information** | Measures mutual dependency between variables |
+| **Variance Threshold** | Remove features with very low variance       |
+
+### Example:
+
+```python
+from sklearn.feature_selection import SelectKBest, chi2
+X_new = SelectKBest(score_func=chi2, k=5).fit_transform(X, y)
+```
+
+---
+
+## **Wrapper Methods**
+
+### What it does:
+
+* Uses a **machine learning model** to evaluate different combinations of features.
+* Selects the **best performing subset** based on model performance.
+
+### Best for:
+
+* Small-to-medium feature sets
+* When accuracy is more important than speed
+
+### Drawback:
+
+* Computationally expensive
+
+### Common Techniques:
+
+| Technique                               | Description                                      |
+| --------------------------------------- | ------------------------------------------------ |
+| **Recursive Feature Elimination (RFE)** | Recursively remove least important features      |
+| **Forward Selection**                   | Start with no features and add one at a time     |
+| **Backward Elimination**                | Start with all features and remove one at a time |
+
+### Example:
+
+```python
+from sklearn.feature_selection import RFE
+from sklearn.linear_model import LogisticRegression
+rfe = RFE(estimator=LogisticRegression(), n_features_to_select=5)
+X_selected = rfe.fit_transform(X, y)
+```
+
+---
+
+## **Embedded Methods**
+
+###  What it does:
+
+* Feature selection is **built into the model training** process.
+* Features are selected **while the model is learning**.
+
+### Best for:
+
+* Models that support feature regularization
+* Getting both **feature selection + modeling** in one step
+
+### Common Techniques:
+
+| Technique                    | Description                                                    |
+| ---------------------------- | -------------------------------------------------------------- |
+| **Lasso Regression (L1)**    | Shrinks some coefficients to 0, effectively selecting features |
+| **Decision Trees**           | Uses tree splits to rank feature importance                    |
+| **Random Forests / XGBoost** | Feature importance from ensemble tree models                   |
+
+### Example:
+
+```python
+from sklearn.linear_model import Lasso
+model = Lasso(alpha=0.1)
+model.fit(X, y)
+print(model.coef_)  # Features with 0 coefficients are dropped
+```
+
+---
+
+## Summary Table
+
+| Method   | Evaluates | Speed  | Model Dependent? | Good For              |
+| -------- | --------- | ------ | ---------------- | --------------------- |
+| Filter   | Stats     | Fast   | ❌ No             | High-dimensional data |
+| Wrapper  | ML Model  | Slow   | ✅ Yes            | Accuracy-focused work |
+| Embedded | ML Model  | Medium | ✅ Yes            | Regularized models    |
+
+---
+
+## Final Notes
+
+* **Start with Filter methods** to remove clearly irrelevant features.
+* Use **Wrapper or Embedded methods** for fine-tuning and final selection.
+* Always validate using **cross-validation** or performance metrics after selection.
