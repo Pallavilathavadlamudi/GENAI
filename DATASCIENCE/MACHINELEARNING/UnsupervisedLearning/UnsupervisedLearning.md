@@ -2,8 +2,6 @@
 
 Let’s explain this step-by-step:
 
----
-
 ### **1. Self-Learning Mechanism**
 
 * The algorithm **learns without human-labeled output**.
@@ -12,8 +10,6 @@ Let’s explain this step-by-step:
 
 Example:
 Imagine you feed customer data (age, spending habits, location) to a model. You don’t tell the algorithm what kind of customer each one is. The algorithm learns to group similar customers based on patterns it finds—without your help.
-
----
 
 ### **2. Algorithm Discovers Unseen Patterns**
 
@@ -27,8 +23,6 @@ In an e-commerce dataset, customers might naturally form **clusters** like:
 * Middle-income, high-spending customers
 
 The algorithm discovers this **structure automatically**.
-
----
 
 ### **3. Hidden Patterns**
 
@@ -46,8 +40,6 @@ Using **Principal Component Analysis (PCA)**, you can find the most influential 
 
 Great question! Let’s break this down carefully:
 
----
-
 ## What if We Label Data in Unsupervised Learning?
 
 If you **label** data and then use it in **unsupervised learning**, a few things can happen — and it depends on how you use the labels.
@@ -64,16 +56,12 @@ The algorithm still tries to **group digits based on similarity** — not accura
 
 **Use case**: This is often done for **evaluating** how well the unsupervised model discovered natural groupings.
 
----
-
 ### **2. If You Use the Labels in Training**
 
 If you **use the labels as part of the learning process**, it **becomes supervised learning**.
 
 Example:
 If you feed the label "cat" or "dog" to help train the model, that’s now **classification**, not clustering.
-
----
 
 ### **Mixing Labels with Unsupervised Learning**
 
@@ -83,8 +71,6 @@ This is where **semi-supervised learning** comes in.
 
 * Example: 1000 images, only 100 are labeled.
 * The model tries to learn the structure with unsupervised methods and then refines it using the labeled samples.
-
----
 
 ### Why Labels Aren’t Used in Unsupervised Learning?
 
@@ -126,8 +112,6 @@ Start by exploring the data using:
 
 Goal: Remove features that are irrelevant or repetitive (like ID columns or constant values).
 
----
-
 ### 2️⃣ **Use Domain Knowledge**
 
 Ask yourself:
@@ -138,8 +122,6 @@ Ask yourself:
 Example:
 For customer segmentation: Age, income, and purchase frequency are better than names or user IDs.
 
----
-
 ### 3️⃣ **Use Dimensionality Reduction (like PCA)**
 
 * **PCA (Principal Component Analysis)** can **transform many features into a few important ones** that explain most variance.
@@ -148,21 +130,15 @@ For customer segmentation: Age, income, and purchase frequency are better than n
 Example:
 From 10 features, PCA might tell you that just 2-3 combined features explain 90% of the data variation.
 
----
-
 ### 4️⃣ **Use Variance Threshold**
 
 * Remove features with **very low variance** (they don't change much across data points).
 * Such features **don’t help in finding differences** between data points.
 
----
-
 ### 5️⃣ **Feature Clustering or Correlation**
 
 * If two features are highly correlated, you may keep just one of them.
 * Too many similar features can **bias the model**.
-
----
 
 ### 6️⃣ **Try and Visualize**
 
