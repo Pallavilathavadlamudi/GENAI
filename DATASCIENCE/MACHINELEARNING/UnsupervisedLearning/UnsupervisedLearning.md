@@ -200,7 +200,7 @@ In **unsupervised learning**, the machine **discovers hidden patterns** without 
 ####  Algorithms:
 
 * **PCA (Principal Component Analysis)** – finds directions (components) that explain most variance.
-* **t-SNE / UMAP** – used for **visualizing** high-dimensional data in 2D/3D.
+* **t-SNE / UMAP(t-SNE (t-Distributed Stochastic Neighbor Embedding) and UMAP (Uniform Manifold Approximation and Projection))** – used for **visualizing** high-dimensional data in 2D/3D.
 
 *Example:* Visualizing high-dimensional gene data to detect disease-related clusters.
 
